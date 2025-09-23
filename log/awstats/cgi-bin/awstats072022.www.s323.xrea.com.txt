@@ -1,0 +1,297 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 202207 will be lost/reset.
+# Last config file used to build this data file was /virtual/www/public_html/log/awstats/cgi-bin/awstats.www.s323.xrea.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2102                
+POS_TIME 2774                
+POS_VISITOR 6927                
+POS_DAY 7577                
+POS_DOMAIN 3557                
+POS_LOGIN 3834                
+POS_ROBOT 3989                
+POS_WORMS 4492                
+POS_EMAILSENDER 4623                
+POS_EMAILRECEIVER 4766                
+POS_SESSION 7817                
+POS_SIDER 7989                
+POS_FILETYPES 4901                
+POS_DOWNLOADS 5029                
+POS_OS 5077                
+POS_BROWSER 5216                
+POS_SCREENSIZE 5443                
+POS_UNKNOWNREFERER 5517                
+POS_UNKNOWNREFERERBROWSER 5604                
+POS_ORIGIN 5686                
+POS_SEREFERRALS 5820                
+POS_PAGEREFS 5964                
+POS_SEARCHWORDS 6112                
+POS_KEYWORDS 6264                
+POS_MISC 2438                
+POS_ERRORS 6323                
+POS_CLUSTER 3690                
+POS_SIDER_403 6454                
+POS_SIDER_400 6536                
+POS_SIDER_404 6618                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220801000013 1893 242500 6950398484724
+FirstTime 0
+LastTime 20220730174305
+LastUpdate 20220801042538 1893 0 1892 0 0
+TotalVisits 12                  
+TotalUnique 11                  
+MonthHostsKnown 7                   
+MonthHostsUnknown 4                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 3 1723 2482 2482 248106
+1 0 0 0 2484 2484 350784
+2 0 0 0 2415 2415 252169
+3 0 0 0 2399 2401 273190
+4 1 1 697 2400 2401 255863
+5 0 0 0 2365 2366 257503
+6 0 0 0 2328 2328 282836
+7 0 0 0 2355 2355 279492
+8 2 3 13930 2308 2312 235392
+9 0 0 0 2374 2374 259155
+10 0 0 0 2388 2388 258501
+11 5 5 20118 2403 2406 305024
+12 4 4 3186 2333 2334 272467
+13 18 19 41235 2318 2318 268283
+14 5 5 6010 2266 2266 308717
+15 6 6 7211 2278 2279 257524
+16 0 0 0 2261 2261 267936
+17 6 6 21861 2305 2305 271092
+18 4 4 32745 2219 2220 248762
+19 0 0 0 2209 2211 239021
+20 0 0 0 2199 2199 207036
+21 1 1 697 2301 2301 284590
+22 1 1 697 2336 2337 351741
+23 1 1 513 2395 2395 307277
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+net 33 34 57642
+jp 15 16 87628
+ip 7 7 4143
+ru 1 1 697
+com 1 1 513
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+Wget/ 55740 6227300 20220731235856 0
+no_user_agent 184 224306 20220731013558 0
+YandexBot/ 6 3078 20220728041532 0
+spider 6 4182 20220703024112 0
+Googlebot/ 6 23024 20220728082652 0
+netEstate[\x20]NE[\x20]Crawler 2 1026 20220718033812 0
+DotBot/ 1 18704 20220712112022 0
+bingbot/ 1 5496 20220724135536 0
+Baiduspider/ 1 513 20220709081626 0
+netcraft 1 697 20220702075250 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+php 43 63742 0 0
+png 2 7685 0 0
+shtm 2 318 0 0
+cgi 12 78878 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+linuxandroid 1 1
+winxp 2 2
+ios_iphone 7 7
+win8.1 1 1
+win10 45 43
+win7 3 3
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 9
+chrome90.0.4430.85 2 2
+chrome103.0.0.0 6 5
+msie7.0 2 2
+chrome50.0.2661.102 2 2
+safari14.0.3 1 1
+firefox102.0 38 37
+safari15.5 6 6
+chrome73.0.3683.90 1 1
+chrome75.0.3770.100 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 32 32
+From1 0 0
+From2 0 0
+From3 0 0
+From4 25 27
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+401 21 1827
+503 6 1794
+302 4 0
+500 1 526
+404 153 29988
+END_ERRORS
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 0
+END_SIDER_403
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 0
+END_SIDER_400
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 0
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 11
+softbank060094005076.bbtec.net 33 34 57642 20220729155018
+fp96f99f7f.tkyc209.ap.nuro.jp 6 6 21861 20220730174305
+c017.cidr3-1.kct.ad.jp 4 4 32745 20220720182101
+p3075141-ipoe.ipoe.ocn.ne.jp 3 3 19092 20220712111050
+116.19.126.137 2 2 1026 20220725005913
+185.232.170.116 2 2 1394 20220711222118
+116.19.124.223 2 2 1026 20220710111839
+246.98.149.114.ap.dti.ne.jp 2 3 13930 20220712082901
+dynamicip-94-181-152-219.pppoe.penza.ertelecom.ru 1 1 697 20220722043040
+116.204.134.203 1 1 697 20220719000318
+ec2-18-183-103-120.ap-northeast-1.compute.amazonaws.com 1 1 513 20220720232327
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 9
+20220710 2 2 1026 1
+20220711 2 2 1394 2
+20220712 5 6 33022 2
+20220719 1 1 697 1
+20220720 5 5 33258 2
+20220722 1 1 697 1
+20220725 2 2 1026 1
+20220729 33 34 57642 1
+20220730 6 6 21861 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+1h+ 1
+0s-30s 9
+30s-2mn 1
+2mn-5mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 7
+/mail/src/left_main.php 19 22747 0 1
+/mail/src/right_main.php 13 34360 0 0
+/jp/admin.cgi 12 78878 3 3
+/ 9 5353 7 7
+/jp/admin.shtm 2 318 1 0
+/mail/src/login.php 1 1036 0 1
+/mail/src/webmail.php 1 246 1 0
+END_SIDER

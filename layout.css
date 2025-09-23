@@ -1,0 +1,161 @@
+.firstMess {
+  text-align: center;
+  /* テキストは中央揃え */
+}
+
+a {
+  text-align: center;
+  /* テキストは中央揃え */
+}
+
+/* 出力欄の見た目を調整 */
+/* ★★★ 変換元テキストエリア (#input-area) のスタイル ★★★ */
+.input-field textarea#input-area {
+  /* 親要素を含めてセレクタの具体性を上げる */
+  /* background-color: #f5f5f5; */
+  /* 他のinputと合わせるためコメントアウト */
+  min-height: 10rem;
+  /* 入力欄と高さを合わせるための最小高さ */
+  resize: vertical !important;
+  /* 垂直方向のリサイズを許可 (Materializeの上書き対策) */
+  overflow: auto !important;
+  /* リサイズハンドル表示と内容スクロールのため (Materializeの上書き対策) */
+  padding: 0.75rem 1rem;
+  /* 出力エリアとpaddingを合わせる */
+  border: none;
+  /* デフォルトの枠線を消す */
+  border-bottom: 1px solid #9e9e9e;
+  /* 出力エリアと下線の色を合わせる */
+  box-sizing: border-box;
+  /* paddingとborderを高さに含める */
+}
+
+/* 入力ペアの間の矢印の垂直位置調整 */
+.pair-arrow {
+  display: flex;
+  align-items: center;
+  /* アイコンを垂直中央に */
+  justify-content: center;
+  /* アイコンを水平中央に */
+  height: 4rem;
+  /* input-fieldの高さに合わせる */
+  font-size: 1.5rem;
+  /* スマホ表示用に調整 */
+  text-align: center;
+  /* テキスト中央揃え */
+  /* 左右の入力欄との間隔を詰める */
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* ペア入力欄の調整 */
+.pair-item .input-field {
+  margin-top: 0;
+  /* 上のmarginを削除して揃える */
+}
+
+/* スマホ表示でペア入力の矢印の上下マージンを調整 */
+@media only screen and (max-width: 600px) {
+  .pair-item .pair-arrow {
+    height: auto;
+    /* 高さを自動に */
+    margin: 0.5rem 0;
+    /* 上下に少しマージン */
+  }
+}
+
+/* ペア間のマージン調整 */
+.pair-item {
+  margin-bottom: 0.8rem !important;
+  /* 各ペアの下に少しマージンを追加 (importantでインラインスタイルを上書き) */
+}
+
+/* 出力エリア(div)のスタイル */
+.output-display {
+  min-height: 10rem;
+  /* textareaと高さを合わせる */
+  padding: 0.75rem 1rem;
+  /* textareaに近いpadding */
+  border-bottom: 1px solid #9e9e9e;
+  /* 下線 */
+  background-color: #f5f5f5;
+  /* 背景色 */
+  white-space: pre-wrap;
+  /* 改行とスペースを保持 */
+  word-wrap: break-word;
+  /* 長い単語を折り返す */
+  font-family: monospace;
+  /* 等幅フォントの方が見やすいかも */
+  resize: vertical;
+  /* 垂直方向のリサイズを許可 */
+  overflow: auto;
+  /* リサイズハンドル表示と内容スクロールのため */
+}
+
+/* ハイライトスタイル */
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+  /* 少し目立たせる */
+}
+
+/* チェックボックスとボタンの間の調整 */
+.convert-options {
+  display: flex;
+  /* 横並びにする */
+  align-items: center;
+  /* 垂直方向中央揃え */
+  justify-content: center;
+  /* 水平方向中央揃え */
+  gap: 20px;
+  /* 要素間のスペース */
+}
+
+details {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 0.5em;
+  /* 上下左右のパディングを統一 */
+  text-align: left;
+  /* 内容のテキストは左揃えに */
+  width: fit-content;
+  /* 幅を内容に合わせる */
+  margin: 1em auto;
+  /* 上下にマージンを少し追加し、左右autoで中央揃え */
+}
+
+summary {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+  text-align: center;
+  /* summaryのテキストは中央揃え */
+  cursor: pointer;
+  /* クリック可能であることを示す */
+}
+
+
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 0.5em;
+  /* text-align は summary で設定済み */
+}
+
+/* サイト名のフォントサイズを画面幅に応じて調整 */
+.brand-logo {
+  /* デフォルトのフォントサイズ (中間の画面サイズ向け) */
+  font-size: 2.1rem !important;
+  /* Materializeのデフォルトに合わせる。!importantで上書き */
+}
+
+@media only screen and (max-width: 600px) {
+
+  /* スマホなどの小さい画面 */
+  .brand-logo {
+    font-size: 1.6rem !important;
+    /* 小さめのフォントサイズ */
+  }
+}
+
+/* タブレットサイズはデフォルトの2.1remを使用 */

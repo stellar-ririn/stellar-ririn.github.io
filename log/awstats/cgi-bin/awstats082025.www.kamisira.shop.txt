@@ -1,0 +1,1128 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 202508 will be lost/reset.
+# Last config file used to build this data file was /virtual/kamisira/public_html/log/awstats/cgi-bin/awstats.www.kamisira.shop.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2107                
+POS_TIME 2779                
+POS_VISITOR 19409               
+POS_DAY 35095               
+POS_DOMAIN 3617                
+POS_LOGIN 4020                
+POS_ROBOT 4175                
+POS_WORMS 4915                
+POS_EMAILSENDER 5046                
+POS_EMAILRECEIVER 5189                
+POS_SESSION 35906               
+POS_SIDER 36085               
+POS_FILETYPES 5324                
+POS_DOWNLOADS 5493                
+POS_OS 5568                
+POS_BROWSER 5802                
+POS_SCREENSIZE 7446                
+POS_UNKNOWNREFERER 7520                
+POS_UNKNOWNREFERERBROWSER 8015                
+POS_ORIGIN 8216                
+POS_SEREFERRALS 8356                
+POS_PAGEREFS 8639                
+POS_SEARCHWORDS 8841                
+POS_KEYWORDS 8993                
+POS_MISC 2443                
+POS_ERRORS 9052                
+POS_CLUSTER 3876                
+POS_SIDER_404 10106               
+POS_SIDER_403 9177                
+POS_SIDER_400 10024               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250901003018 1 0 11791409220109
+FirstTime 20250801003049
+LastTime 20250831230720
+LastUpdate 20250902110101 1 0 0 0 0
+TotalVisits 535                 
+TotalUnique 345                 
+MonthHostsKnown 86                  
+MonthHostsUnknown 270                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 33 35 170699 798 811 174044
+1 21 23 115477 360 382 101303
+2 14 16 84343 408 439 143971
+3 21 22 81427 180 234 80172
+4 21 25 126124 84 95 41140
+5 12 18 95703 434 448 96429
+6 17 17 59891 117 125 47797
+7 29 31 119287 561 565 110884
+8 20 20 83406 452 496 175473
+9 17 17 59891 1150 1155 275802
+10 21 21 73983 143 149 58785
+11 21 23 109004 305 317 91526
+12 18 18 63414 218 236 89480
+13 24 29 107791 28 48 69696
+14 28 40 194376 250 277 56835
+15 35 55 321343 1045 1075 228369
+16 29 53 214123 445 467 155898
+17 27 39 187330 396 443 92698
+18 54 62 216260 406 424 171336
+19 24 28 97397 131 141 40545
+20 18 18 69887 606 623 209235
+21 35 44 179266 463 468 117720
+22 15 17 87866 566 588 151432
+23 24 30 138359 196 212 39788
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 13
+ip 478 506 2010834
+com 66 114 663967
+net 11 17 143816
+jp 9 42 131967
+de 4 7 25054
+us 2 2 7046
+cn 2 2 7046
+ro 1 1 3523
+cloud 1 1 3523
+adsl 1 6 49302
+localhost 1 1 3523
+ru 1 1 3523
+sh 1 1 3523
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 17
+Googlebot/ 72 241379 20250830225242 0
+bingbot/ 30 124729 20250831120950 0
+bot[\s_+:,\.\;\/\\-] 14 49322 20250825115209 0
+python 12 46595 20250828134049 0
+no_user_agent 11 79980 20250831101335 0
+dataprovider\.com 9 47792 20250829200336 0
+Googlebot\-Image/ 8 140084 20250829180920 0
+checker 6 21138 20250821175151 0
+AhrefsBot/ 6 12726 20250831011503 0
+ning 6 59976 20250830132940 0
+SemrushBot/ 1 3523 20250830124720 0
+BLEXBot/ 1 3523 20250826132135 0
+curl 1 3523 20250805215940 0
+YandexBot/ 1 3523 20250830095039 0
+oBot/ 1 3523 20250802044429 0
+MJ12bot/ 5 17615 20250824182355 0
+crawl 1 3523 20250818222611 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+html 2 7046 0 0
+csv 22 34210 0 0
+css 22 38698 0 0
+js 26 193544 0 0
+php 576 2148139 0 0
+png 53 635010 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/dictionary.csv 43 0 66865
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 13
+Unknown 51 27
+macosx9 5 1
+linuxandroid 21 12
+macosx12 2 2
+macosx 23 19
+win10 123 84
+win7 11 5
+macosx7 1 0
+winxp 1 0
+linux 57 27
+ios_iphone 395 395
+win8.1 9 4
+winnt 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 77
+chrome76.0.3809.100 1 1
+chrome136.0.0.0 1 1
+safari17.0.96 1 1
+safari13.0.3 394 394
+chrome104 2 2
+chrome58.0.3029.110 2 2
+chrome113.0.5672.93 1 1
+chrome73.0.3683.90 1 1
+opera80.4.4244.7786 1 1
+chrome116.0.5845.96 1 1
+netscape5.0 2 2
+chrome59.0.3084.58 1 1
+chrome62.0.2586.92 1 1
+chrome62.0.1918.90 1 1
+firefox50.0 1 1
+chrome91.0.4472.124 15 12
+safari17.3.1 2 2
+chrome127.0.6533.119 5 1
+safari13.1 1 1
+msie11.0 3 3
+chrome62.0.2106.106 1 1
+firefox135.0 1 1
+firefox121.0 2 2
+chrome91.0.4472.114 5 5
+Unknown 5 5
+chrome62.0.951.13 1 1
+chrome105.0.0.0 2 2
+firefox33.0 8 8
+chrome 17 13
+chrome57.0.1203.28 1 1
+chrome61.0.1452.26 1 1
+chrome124.0.0.0 2 1
+chrome139.0.0.0 28 7
+chrome120.0.0.0 9 6
+safari12.1.1 1 1
+chrome130.0.0.0 1 1
+chrome89.0.4389.90 1 1
+chrome110.0.0.0 6 1
+chrome112.0.5615.138 2 2
+mozilla 37 13
+chrome134.0.0.0 2 2
+firefox126.0 2 2
+chrome49.0.2623.112 4 2
+chrome135.0.0.0 1 1
+chrome59.0.3146.41 1 1
+chrome119.0.0.0 2 2
+chrome80.0.3987.162 1 1
+chrome76.0.3809.111 2 2
+chrome59.0.2317.44 1 1
+safari17.2.1 1 1
+safari7.0.3 4 0
+firefox139.0 6 3
+chrome81.0.4044.129 2 2
+chrome128.0.0.0 4 4
+firefox46.0 1 1
+chrome17.0.963.56 1 0
+chrome114.0.0.0 2 2
+chrome91.0.4472.101 4 1
+chrome138.0.0.0 3 1
+chrome81.0.4044.138 5 1
+chrome84.0.4147.89 4 4
+chrome66.0.3359.181 16 16
+firefox114.0 2 2
+chrome23.0.1271.95 1 0
+chrome125.0.0.0 1 1
+chrome114.0.5735.134 1 1
+chrome122.0.0.0 2 2
+chrome106.0.0.0 1 1
+chrome85.0.4182.0 32 8
+firefox22.0 4 0
+chrome115.0.5790.102 1 1
+chrome78.0.3904.108 6 2
+chrome132.0.0.0 1 1
+chrome13.0.782.20 1 1
+chrome89.0.4389.105 8 2
+chrome67.0.3396.87 2 2
+chrome56.0.1241.19 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20250830113642
+Mozilla/5.0_researchscan.comsys.rwth-aachen.de 20250801212231
+Go-http-client/2.0 20250822193218
+Mozilla/5.0_Firefox/33.0 20250807000738
+Scrapy/2.12.0_(_https://scrapy.org) 20250803015554
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20250831223548
+Go-http-client/1.1 20250822183338
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Go-http-client/2.0 20250822193218
+Go-http-client/1.1 20250822183338
+Scrapy/2.12.0_(_https://scrapy.org) 20250803015554
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 351 395
+From1 0 0
+From2 10 10
+From3 2 2
+From4 215 294
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 8
+www_google_fr 1 1
+www_google_co_jp 1 1
+www_google_de 1 1
+www_google_co_kr 1 1
+www_google_it 1 1
+bing 1 1
+www_google_com 2 2
+duckduckgo 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://kbymye2.ui4.pro 1 1
+https://static.vnpt.vn 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+404 9953 1947064
+421 2 644
+403 50 9950
+400 1 226
+END_ERRORS
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 19
+/.well-known/acme-challenge/iR7SzrsOUEP.php 1 -
+/.well-known/acme-challenge/xmrlpc.php 3 -
+/.well-known/acme-challenge/themes.php 1 -
+/.well-known/acme-challenge/classwithtostring.php 1 -
+/.well-known/acme-challenge/admin.php 6 -
+/.well-known/acme-challenge/index.php 7 -
+/.well-known/acme-challenge/makeasmtp.php 5 -
+/.well-known/acme-challenge/pzwidjez.php 1 -
+/.well-known/acme-challenge/cloud.php 4 -
+/.well-known/acme-challenge/doc.php 4 -
+/.well-known/acme-challenge/xl2023.php 1 -
+/.well-known/acme-challenge/radio.php 2 -
+/.well-known/acme-challenge/wso112233.php 1 -
+/ 1 -
+/robots.txt 1 -
+/.well-known/acme-challenge/about.php 5 -
+/.well-known/acme-challenge/sxo.php 1 -
+/.well-known/acme-challenge/parx.php 1 -
+/.well-known/acme-challenge/mariju.php 4 -
+END_SIDER_403
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 0
+END_SIDER_400
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 339
+/wp-content/plugins/not/includes/about.php 1 -
+/wp-includes/pomo/ 1 -
+/wp-admin/images/admin.php 1 -
+/wp-content/themes/about.php 2 -
+/wp-includes/widgets/about.php 1 -
+/wp-admin/images/xmrlpc.php 1 -
+/wp-includes/blocks/post-author/ 1 -
+/ioxi-o.php 1 -
+/images/cloud.php 1 -
+/wp-admin/user/xmrlpc.php 1 -
+/autoload_classmap.php 1 -
+/wp-includes/autoload_classmap.php 1 -
+/admin/upload/css.php 1 -
+/themes.php 1 -
+/wp-content/themes/seotheme/db.php 1 -
+/file5.php 1 -
+/wp-includes/ID3/file.php 1 -
+/wp-content/themes/pridmag/db.php 1 -
+/public_html.zip 1 -
+/css/cloud.php 1 -
+/theme.php 1 -
+/wp-includes/block-patterns/about.php 1 -
+/wp-admin/css/colors/blue/index.php 1 -
+/libraries/vendor/updates.php 1 -
+/simple.php 2 -
+/cgi-bin/xmrlpc.php 1 -
+/wp-admin/css/colors/midnight/ 1 -
+/wp-signup.php 1 -
+/wso112233.php 1 -
+/wp-includes/images/smilies/about.php 1 -
+/wp-content/themes/wp-pridmag/init.php 1 -
+/auth.php 1 -
+/wp-includes/images/crystal/ 1 -
+/wp-admin/network/ 1 -
+/classsmtps.php 1 -
+/public/index.php 1 -
+/.well-known/pki-validation/cloud.php 1 -
+/wp/wp-admin/includes/ 1 -
+/wp-admin/repeater.php 1 -
+/ws.php 1 -
+/wp-content/uploads/ 1 -
+/wp-admin/includes/about.php 1 -
+/wp-admin/user/ 1 -
+/wp-admin/css/about.php 1 -
+/WSO.php 1 -
+/wp-blog.php 1 -
+/wordpress/wp-admin/setup-config.php 3 -
+/a.php 1 -
+/post.php 2 -
+/wp-content/gallery/about.php 1 -
+/wp-admin/admin.php 1 -
+/root.php 1 -
+/wp-includes/js/tinymce/skins/lightgray/ 1 -
+/wp-includes/rest-api/about.php 1 -
+/wp-admin/css/colors/ectoplasm/wp-login.php 1 -
+/alfa.php 1 -
+/wp-admin/css/colors/light/ 1 -
+/wp-admin/css/colors/coffee/ 1 -
+/wp-admin/images/about.php 1 -
+/wp-content/plugins/seoplugins/db.php 1 -
+/wp-admin/maint/maint/ajax-actions.php 1 -
+/wp-admin/js/widgets/index.php 1 -
+/upfile.php 1 -
+/wp-admin/css/colors/coffee/xmrlpc.php 1 -
+/cgi-bin/about.php 1 -
+/private/ 1 -
+/wp-sigunq.php 1 -
+/wp-includes/customize/ 1 -
+/contents.php/lv.php 1 -
+/wp-activat.php 1 -
+/wp-includes/ID3/autoload_classmap.php 1 -
+/wp-content/upgrade/ 1 -
+/wp-conf.php 1 -
+/wp-admin/includes/index.php 1 -
+/wp-content/blogs.dir/about.php 1 -
+/images/xmrlpc.php 1 -
+/wp-content/languages/chosen.php 1 -
+/wp-content/uploads/2024/index.php 1 -
+/plugins.php 1 -
+/wp-includes/sodium_compat/ 1 -
+/cgi-bin/wp-login.php 1 -
+/wp-includes/images/smilies/index.php 1 -
+/wp-includes/js/tinymce/themes/inlite/ 1 -
+/wp-content/plugins/ 1 -
+/wp-content/plugins/hellopress/wp_filemanager.php 1 -
+/wp-content/plugins/linkpreview/db.php 1 -
+/wp-includes/ID3/about.php 1 -
+/wp-activate.php 1 -
+/wp-content/plugins/seoo/wsoyanz1.php 1 -
+/alfanew.php7 1 -
+/wp-content/uploads/2021/ 1 -
+/wp-includes/Requests/about.php 1 -
+/x2go/ 1 -
+/wp-content/plugins/awesome-coming-soon/come.php 1 -
+/wp-admin/user/chosen.php 1 -
+/wp-content/plugins/seoo/wsoyanz.php 1 -
+/wp-content/themes/ 1 -
+/favicon.php 1 -
+/alfanew.php 2 -
+/wp-admin/network/xmrlpc.php 1 -
+/wp-admin/wp-conflg.php 1 -
+/wp-admin/includes/cloud.php 2 -
+/admin/uploads/ 1 -
+/alfa-rex.php7 1 -
+/modules/mod_footer/tmpl/index.php 1 -
+/wp-admin/network/chosen.php 1 -
+/wp-content/updates.php 1 -
+/wp-content/uploads/2022/ 1 -
+/img/cloud.php 1 -
+/wp-content/uploads/2018/03/ 1 -
+/log.php 2 -
+/wp-admin/css/colors/blue/about.php 1 -
+/sitemaps.xml 2 -
+/wp-admin/includes/moon.php 1 -
+/wp-admin/dropdown.php 1 -
+/wp-includes/block-patterns/ 1 -
+/test.php 1 -
+/wp-admin/css/colors/cloud.php 1 -
+/wp-admin/includes/xmrlpc.php 1 -
+/wp-content/plugins/wp-conflg.php 1 -
+/ccx/index.php 1 -
+/wp-admin/js/widgets/about.php 1 -
+/info.php 1 -
+/wsoyanz.php 1 -
+/k.php 1 -
+/404.php 1 -
+/templates/beez3/error.php 1 -
+/mail.php 1 -
+/wp-content/plugins/ioxi/ioxi/ 1 -
+/makeasmtp.php 1 -
+/wp-content/about.php 2 -
+/cgi-bin/wp-2019.php 1 -
+/repeater.php 1 -
+/wp-admin/ajax-actions.php 1 -
+/wp-content/uploads/2022/07/ 1 -
+/wp-admin/admin-ajax.php 1 -
+/wp-content/style-css.php 1 -
+/css/index.php 1 -
+/images/about.php 1 -
+/install.php 1 -
+/admin/function.php 1 -
+/img/xmrlpc.php 1 -
+/wp-file.php 1 -
+/wp.php 1 -
+/wp-admin/js/ 1 -
+/wp-admin/css/colors/modern/ 1 -
+/.well-known/classwithtostring.php 1 -
+/wp-2019.php 1 -
+/wp-load.php 1 -
+/wp-login.php 1 -
+/admin.php 4 -
+/wp-includes/sitemaps/providers/ 1 -
+/bypass.php 1 -
+/hehe.php 1 -
+/wp-consar.php 1 -
+/berlin.php 1 -
+/wp-includes/customize/about.php 1 -
+/wp-content/themes/seotheme/mar.php 1 -
+/wp-includes/theme-compat/ 1 -
+/modules/file.php 1 -
+/wp-admin/network/index.php 1 -
+/edit.php 2 -
+/shell.php 1 -
+/wp-admin/js/widgets/about.php7 1 -
+/alfa-rex2.php7 1 -
+/admin-post.php 1 -
+/flower.php 1 -
+/wp-includes/ID3/index.php 1 -
+/wp-includes/blocks/about.php 1 -
+/wp-includes/block-supports/ 1 -
+/wp-include.php 1 -
+/wp-mail.php 1 -
+/classwithtostring.php 1 -
+/wp-admin/js/widgets/cloud.php 2 -
+/wp-cron.php 1 -
+/wp-content/file.php 1 -
+/wp-content/admin.php 1 -
+/wp-content/updraft/about.php 1 -
+/wp-admin/images/index.php 2 -
+/cache-compat.php 1 -
+/wp-includes/file.php 1 -
+/wp-content/themes/aahana/json.php 1 -
+/wp-admin/cloud.php 1 -
+/ebs.php7 1 -
+/wp-includes/assets/index.php 1 -
+/wp-includes/certificates/ 1 -
+/wp-includes/fonts/ 1 -
+/.well-known/pki-validation/xmrlpc.php 1 -
+/radio.php 2 -
+/robots.txt 7 -
+/admin/admin.php 1 -
+/cgi-bin/cloud.php 1 -
+/ws.php7 1 -
+/wp-blog-header.php 1 -
+/wp-includes/images/about.php 1 -
+/wp-content/plugins/seoplugins/mar.php 1 -
+/wp-content/plugins/WordPressCore/ 1 -
+/.well-known/ 1 -
+/wp-content/uploads/json.php 1 -
+/css/xmrlpc.php 1 -
+/.well-known/pki-validation/about.php 1 -
+/wp-content/ 1 -
+/wp-admin/css/colors/ocean/ 1 -
+/index.php/feed/atom/ 1 -
+/wp-includes/repeater.php 1 -
+/wp-content/banners/about.php 1 -
+/wp-content/uploads/autoload_classmap.php 1 -
+/inputs.php 2 -
+/ab.php 1 -
+/wp-admin/css/ 1 -
+/wp-content/1.php 1 -
+/wp-admin/setup-config.php 4 -
+/wp-content/upgrade-temp-backup/about.php 1 -
+/wp-admin/js/widgets/ 1 -
+/wp-includes/blocks/ 1 -
+/wp-content/repeater.php 1 -
+/wp-includes/IXR/about.php 1 -
+/wp-includes/style-engine/about.php 1 -
+/avaa.php 1 -
+/wp-includes/css/dist/ 1 -
+/wp-includes/css/ 1 -
+/wp-content/uploads/wp.php 1 -
+/security.txt 1 -
+/wp-content/plugins/google-seo-rank/module.php 1 -
+/wp-content/index.php 1 -
+/wp-includes/images/ 1 -
+/wp-content/alfa.php 1 -
+/aaa.php 1 -
+/wp-includes/blocks/group/ 1 -
+/libraries/phpmailer/updates.php 1 -
+/.well-known/about.php 1 -
+/wp-admin/images/cloud.php 2 -
+/1.php 1 -
+/aa.php 1 -
+/wp-admin/css/colors/blue/atomlib.php 1 -
+/blog.php 1 -
+/wp-admin/css/colors/blue/xmrlpc.php 1 -
+/modules/ 1 -
+/Backup.zip 1 -
+/yanz.php 1 -
+/wp-includes/SimplePie/about.php 1 -
+/wp-admin/css/colors/sunrise/ 1 -
+/content.php 2 -
+/alfanew2.php7 1 -
+/updates.php 2 -
+/wp-content/uploads/2023/03/ 1 -
+/ajax-actions.php 1 -
+/wordpress.zip 1 -
+/wp-includes/ID3/ 1 -
+/wp-includes/SimplePie/ 1 -
+/wp-includes/Requests/ 1 -
+/aspera/faspex/ 1 -
+/wp-admin/images/ 1 -
+/wp-comments-post.php 1 -
+/wp-includes/ 1 -
+/wp-content/plugins/simple/simple.php 1 -
+/cgi-bin/ 1 -
+/system.php 1 -
+/file.php 1 -
+/wp-content/languages/about.php 1 -
+/wp-includes/shell20211028.php 1 -
+/wp-includes/Text/about.php 1 -
+/wp-includes/Requests/library/index.php 1 -
+/wp-admin/user/cloud.php 1 -
+/wp-conflg.php 1 -
+/simple/function.php 1 -
+/wp-content/plugins/seoplugins/index.php 1 -
+/anonse/lock360.php 1 -
+/wp-content/themes/404.php 1 -
+/ALFA_DATA/alfacgiapi/ 1 -
+/xmlrpc.php 1 -
+/wp-includes/html-api/ 1 -
+/wp-content/plugins/Cache/Cache.php 1 -
+/dropdown.php 2 -
+/wp-includes/pomo/about.php 1 -
+/admin/upload/ 1 -
+/index.php 1 -
+/wp-admin/xmrlpc.php 1 -
+/.git/config 1 -
+/wp-includes.bak/html-api/about.php 1 -
+/ae.php 1 -
+/admin/controller/extension/extension/ultra.php 1 -
+/wp-admin.php 1 -
+/bak.php 1 -
+/default.php 1 -
+/assets/images/doc.php 1 -
+/functions.php 1 -
+/as.php 1 -
+/wp-includes/about.php 1 -
+/wp-admin/ 1 -
+/wp-admin/css/colors/blue/cloud.php 1 -
+/bk/index.php 1 -
+/en-us/2021/04/30/php-community-sidesteps-its-third-supply-chain-attack-in-three-years/ 1 -
+/wp-admin/network/cloud.php 1 -
+/.well-known/gecko-litespeed.php 1 -
+/wp-p.php7 1 -
+/wp-content/cong.php 1 -
+/libraries/legacy/updates.php 1 -
+/wp-admin/css/colors/xmrlpc.php 1 -
+/wp-trackback.php 1 -
+/2.php 1 -
+/about.php 3 -
+/en/wp-includes/ID3/index.php 1 -
+/wp-admin/js/widgets/xmrlpc.php 1 -
+/ini.php 1 -
+/wp-includes/mani.php 1 -
+/403.php 1 -
+/shellv3.php 1 -
+/cloud.php 1 -
+/wp-admin/maint/edit.php 1 -
+/wp-includes/assets/admin.php 1 -
+/adminfuns.php7 1 -
+/img/about.php 1 -
+/wp-admin/css/colors/index.php 2 -
+/wp-content/themes/twentytwenty/404.php 1 -
+/wp-admin/css/colors/coffee/cloud.php 1 -
+/wp-includes/header.php 1 -
+/moon.php 1 -
+/man.php 1 -
+/lock360.php 1 -
+/wp-content/plugins/wp-theme-editor/include.php 1 -
+/wp-includes/images/media/ 1 -
+/wp-admin/css/index.php 1 -
+/plugins/ 1 -
+/api.php 1 -
+/goods.php 1 -
+/include/ 1 -
+/wp-admin/js/about.php 3 -
+/wp-includes/Requests/Text/admin.php 1 -
+/wp-includes/css/index.php 1 -
+/archive.zip 1 -
+/fw.php 1 -
+/wp-logs.php 1 -
+/about.php7 1 -
+/chosen.php 1 -
+/index/function.php 1 -
+/wp-includes/customize/chosen.php 1 -
+/css.php 1 -
+/xmrlpc.php 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 356
+146.70.168.222 10 10 35230 20250811185129
+114.96.103.33 8 8 28184 20250831060619
+129.28.14.231 7 7 24661 20250829201302
+123.245.85.146 7 7 24661 20250819150543
+117.33.163.216 6 6 21138 20250824044952
+101.42.117.179 6 6 21138 20250831000048
+162.14.197.180 6 6 21138 20250824201130
+132.232.165.4 5 5 17615 20250827040632
+182.42.105.85 5 5 17615 20250821020809
+101.91.148.219 5 5 17615 20250825143953
+106.119.167.146 3 3 10569 20250821204252
+125.94.144.102 1 1 3523 20250807121645
+breezy.monitoring.internet-measurement.com 0 1 32934 
+43.130.102.223 1 1 3523 20250819145555
+49.51.72.236 1 1 3523 20250803103219
+ec2-98-81-155-21.compute-1.amazonaws.com 1 2 12083 20250803041209
+43.133.91.48 1 1 3523 20250817010658
+ec2-34-228-18-57.compute-1.amazonaws.com 1 2 12083 20250831074108
+199.244.88.229 1 1 3523 20250824184246
+43.159.141.150 1 1 3523 20250806003820
+43.130.91.95 1 1 3523 20250827181538
+27.115.124.38 0 1 32934 
+s915.lon1.mysecurecloudhost.com 1 1 3523 20250810120724
+43.159.143.190 1 1 3523 20250828175619
+ec2-44-247-157-193.us-west-2.compute.amazonaws.com 1 1 3523 20250831210321
+167.94.146.60 1 3 38544 20250831223543
+45.148.10.80 4 4 14092 20250826062751
+119.28.177.175 1 1 3523 20250818131209
+ec2-54-226-218-116.compute-1.amazonaws.com 1 4 14281 20250810162220
+43.159.152.184 1 1 3523 20250821143116
+43.131.45.213 1 1 3523 20250823070246
+43.167.157.80 1 1 3523 20250804075521
+43.166.238.12 1 1 3523 20250816145441
+ec2-98-81-197-172.compute-1.amazonaws.com 2 5 24277 20250831160006
+ec2-13-59-255-233.us-east-2.compute.amazonaws.com 4 8 26937 20250809213124
+49.7.227.204 2 2 7046 20250821080950
+170.106.11.141 1 1 3523 20250813041750
+43.130.67.6 1 1 3523 20250821185629
+199.244.88.222 1 1 3523 20250808194130
+92.114.50.2 1 1 3523 20250825010130
+43.130.102.7 1 1 3523 20250831210111
+ec2-35-91-213-81.us-west-2.compute.amazonaws.com 1 1 3523 20250829180504
+185.177.72.55 1 2 10967 20250822132710
+43.133.139.6 1 1 3523 20250820171636
+180.110.203.108 2 2 7046 20250817074747
+ec2-13-222-168-209.compute-1.amazonaws.com 1 4 14281 20250831160007
+156.249.58.117 1 1 3523 20250803180832
+43.130.16.212 1 1 3523 20250829145520
+box2122.bluehost.com 1 1 3523 20250808084624
+unn-84-17-41-76.cdn77.com 1 1 3523 20250818102636
+106.75.165.62 1 2 12083 20250816151259
+27.115.124.113 0 1 2087 
+43.157.22.57 1 1 3523 20250809075054
+58.49.233.126 3 3 10569 20250823100144
+43.167.241.46 1 1 3523 20250821111557
+kddi1.e-joho.net 3 3 10569 20250821073315
+49.51.132.100 2 2 7046 20250823093143
+182.44.10.67 2 2 7046 20250814052743
+221.229.106.25 2 2 7046 20250825053903
+162.142.125.121 1 3 38544 20250830024000
+247.181.148.132.host.secureserver.net 1 1 3523 20250831130823
+49.232.151.112 3 3 10569 20250826032217
+ec2-44-248-40-51.us-west-2.compute.amazonaws.com 1 1 3523 20250809180815
+43.130.139.136 1 1 3523 20250802043144
+27.115.124.41 1 1 9996 20250816151248
+43.156.168.214 2 2 7046 20250820231520
+ec2-34-223-213-226.us-west-2.compute.amazonaws.com 1 1 3523 20250821180748
+ec2-54-173-117-182.compute-1.amazonaws.com 1 1 9996 20250810013842
+43.157.149.188 1 1 3523 20250829003116
+ec2-35-95-25-86.us-west-2.compute.amazonaws.com 1 1 3523 20250813183231
+bdix.hosttiller.com 1 1 3523 20250804092656
+43.157.179.227 2 2 7046 20250815002906
+49.51.50.147 1 1 3523 20250813184312
+43.166.244.192 2 2 7046 20250831142820
+43.135.183.82 2 2 7046 20250806235427
+ec2-44-196-119-63.compute-1.amazonaws.com 1 1 3523 20250825002732
+ip96f9d6fe.ap.nuro.jp 1 5 15836 20250818232630
+185.177.72.179 3 3 10569 20250814170724
+170.106.187.106 1 1 3523 20250831082054
+27.115.124.6 1 4 8924 20250816150808
+111.172.249.49 1 1 3523 20250813043647
+124.226.222.66 1 1 3523 20250807061717
+unused-space.coop.net 3 9 115632 20250830043849
+43.167.236.228 1 1 3523 20250820010033
+114.80.36.40 3 3 10569 20250825114010
+43.130.139.177 1 1 3523 20250801134816
+43.166.255.102 1 1 3523 20250815090741
+170.106.35.137 1 1 3523 20250831165906
+undefined.hostname.localhost 1 1 3523 20250822183338
+138.197.32.92 1 1 3523 20250819024430
+43.157.95.131 1 1 3523 20250806182600
+43.156.204.134 1 1 3523 20250817110806
+139.155.139.22 5 5 17615 20250818113722
+43.131.36.84 2 2 7046 20250829115710
+43.155.162.41 2 2 7046 20250825100344
+205.169.39.25 1 1 3523 20250818135208
+43.135.144.126 1 1 3523 20250818215208
+43.128.149.102 2 2 7046 20250824151149
+182.44.12.37 1 1 3523 20250803113439
+221.207.35.37 3 3 10569 20250819150543
+43.130.106.18 1 1 3523 20250813000211
+43.166.251.233 1 1 3523 20250821211544
+43.153.54.14 1 1 3523 20250814094556
+119.96.24.54 3 3 10569 20250816040750
+scanner-201.hk2.censys-scanner.com 2 6 77088 20250831002758
+43.165.135.242 2 2 7046 20250825231039
+43.166.128.86 1 1 3523 20250803062340
+43.155.157.239 1 1 3523 20250803235314
+ec2-54-80-71-162.compute-1.amazonaws.com 1 2 12083 20250817075044
+93.158.90.53 1 1 3523 20250826133422
+43.159.149.56 2 2 7046 20250809203803
+182.42.111.156 3 3 10569 20250823161431
+43.135.145.117 1 1 3523 20250812160417
+43.166.240.231 2 2 7046 20250825072335
+47.88.6.232 2 2 7046 20250824171156
+43.166.246.180 2 2 7046 20250828132318
+43.166.247.155 1 1 3523 20250809151219
+90724006b6b4.mldns.ru 1 1 3523 20250829234227
+43.153.73.200 1 1 3523 20250828033727
+195.178.110.15 1 1 3523 20250829080414
+43.153.19.83 2 2 7046 20250807074301
+167.94.138.190 1 3 38544 20250803143231
+43.164.197.224 3 3 10569 20250820131811
+119.28.140.106 1 1 3523 20250802182224
+49.51.253.26 1 1 3523 20250807021545
+ip96f9d6fa.ap.nuro.jp 0 2 9531 
+157.245.243.176 1 1 3523 20250813232046
+36.111.67.189 2 2 7046 20250830143548
+124.221.245.78 2 2 7046 20250829170955
+43.130.67.33 2 2 7046 20250824174700
+43.157.150.69 1 1 3523 20250804045936
+43.166.136.202 2 2 7046 20250829191636
+ec2-44-251-61-138.us-west-2.compute.amazonaws.com 1 1 3523 20250807181526
+43.130.74.193 1 1 3523 20250809041521
+167.172.255.248 1 1 3523 20250802042408
+43.156.232.190 1 1 3523 20250805154013
+217.160.202.182 1 1 3523 20250816210041
+43.131.243.61 2 2 7046 20250807204957
+43.157.153.236 1 1 3523 20250808231806
+13.115.91.34.bc.googleusercontent.com 1 1 3523 20250803015554
+ns1016175.ip-15-204-182.us 1 1 3523 20250823084059
+ec2-54-87-135-169.compute-1.amazonaws.com 1 4 14281 20250831160007
+captivating.monitoring.internet-measurement.com 1 1 3523 20250829153147
+ec2-54-188-31-149.us-west-2.compute.amazonaws.com 1 1 3523 20250813185449
+132.232.144.200 2 2 7046 20250822121711
+43.130.72.177 1 1 3523 20250819211045
+nc-ph-2478.web-hosting.com 2 2 13519 20250825130640
+125.75.66.97 4 4 14092 20250829110227
+ec2-3-208-24-116.compute-1.amazonaws.com 2 5 24277 20250810162219
+43.133.187.11 2 2 7046 20250818082228
+43.154.127.188 1 1 3523 20250804195600
+43.157.174.69 1 1 3523 20250809183933
+49.51.36.179 1 1 3523 20250808092134
+223.244.35.77 5 5 17615 20250831212016
+128.117.126.34.bc.googleusercontent.com 1 1 3523 20250814001914
+43.157.46.118 1 1 3523 20250807104413
+175.6.217.4 2 2 7046 20250828103014
+101.33.55.204 1 1 3523 20250817074126
+researchscan36.comsys.rwth-aachen.de 1 1 3523 20250801212231
+43.153.35.128 1 1 3523 20250811115819
+43.157.170.126 2 2 7046 20250814221513
+43.157.148.38 2 2 7046 20250811204948
+182.44.2.148 1 1 3523 20250822152305
+27.115.124.70 0 1 7444 
+43.135.211.148 1 1 3523 20250803183540
+124.222.142.44 3 3 10569 20250829232211
+124.156.226.179 1 1 3523 20250819185550
+8.36.86.57 2 2 13519 20250806235603
+49.51.183.84 2 2 7046 20250814002927
+ec2-44-250-29-75.us-west-2.compute.amazonaws.com 1 1 3523 20250823193421
+vmd152326.contaboserver.net 1 1 3523 20250826194839
+ec2-54-218-103-115.us-west-2.compute.amazonaws.com 1 1 3523 20250807181314
+43.166.7.113 1 1 3523 20250820042301
+inspired.monitoring.internet-measurement.com 1 1 3523 20250830113642
+43.157.175.122 2 2 7046 20250823142611
+ip96f9d6f9.ap.nuro.jp 2 7 21650 20250819185631
+117.62.235.53 1 1 3523 20250802134614
+185.146.3.15 1 1 3523 20250820161922
+hn.kd.ny.adsl 1 6 49302 20250816150756
+ec2-18-246-32-134.us-west-2.compute.amazonaws.com 0 2 35021 
+43.131.23.154 1 1 3523 20250830191739
+182.42.111.213 3 3 10569 20250826001240
+162.62.231.139 1 1 3523 20250804142950
+94-247-172-129-static.serverhotell.net 1 1 3523 20250829061710
+43.153.10.13 1 1 3523 20250813114903
+212.56.53.127 1 1 3523 20250809030319
+118.195.165.218 4 4 14092 20250830174423
+43.157.98.187 1 1 3523 20250825145536
+43.157.168.43 3 3 10569 20250811052018
+106.75.142.158 1 2 12083 20250816151300
+43.157.172.39 2 2 7046 20250826073637
+170.106.72.178 2 2 7046 20250822161136
+43.135.115.233 2 2 7046 20250820104442
+114.117.233.112 1 1 3523 20250828194226
+43.155.140.157 1 1 3523 20250827131127
+43.159.145.149 1 1 3523 20250828005036
+uplifting.monitoring.internet-measurement.com 0 1 2087 
+8.36.86.63 4 4 27038 20250807000357
+ec2-34-251-42-196.eu-west-1.compute.amazonaws.com 2 2 0 20250811211552
+43.157.191.20 1 1 3523 20250819070825
+170.106.11.6 4 4 14092 20250830124120
+ec2-44-250-40-155.us-west-2.compute.amazonaws.com 1 1 3523 20250811193242
+43.157.180.116 1 1 3523 20250816015657
+ec2-35-89-75-178.us-west-2.compute.amazonaws.com 1 1 3523 20250827114042
+ec2-54-86-248-162.compute-1.amazonaws.com 2 5 24277 20250831160005
+170.106.197.109 2 2 7046 20250830212845
+8.218.66.118 1 1 3523 20250816145029
+118.89.233.234 3 3 10569 20250826152924
+ec2-44-242-245-28.us-west-2.compute.amazonaws.com 0 2 35021 
+150.109.46.88 1 1 3523 20250815195311
+170.106.180.139 1 1 3523 20250805093700
+223.15.245.170 3 3 10569 20250824135628
+180.102.134.69 4 4 14092 20250824170304
+ec2-34-214-180-201.us-west-2.compute.amazonaws.com 1 1 3523 20250803180503
+ec2-35-87-25-83.us-west-2.compute.amazonaws.com 1 1 3523 20250801182012
+161.35.219.36 2 4 11220 20250825185059
+182.44.8.254 2 2 7046 20250816100328
+43.153.204.189 1 1 3523 20250826113052
+43.153.123.3 1 1 3523 20250824071738
+182.42.110.255 1 1 3523 20250804154035
+sndr3.vert3.securewg.jp 1 5 16368 20250818135205
+132.232.203.74 3 3 10569 20250830204942
+49.51.196.42 1 1 3523 20250811005418
+185.177.72.46 2 2 7046 20250802082123
+43.130.116.87 1 1 3523 20250810072058
+43.153.102.138 2 2 7046 20250806203210
+43.159.149.216 1 1 3523 20250803125558
+43.156.202.34 1 1 3523 20250824235640
+43.133.69.37 2 2 7046 20250815160304
+129.226.93.214 3 3 10569 20250826233913
+crawl-144-217-135-142.dataproviderbot.com 1 1 9996 20250829200313
+43.157.50.58 1 1 3523 20250824101447
+ip173.ip-15-204-43.us 1 1 3523 20250811125132
+ec2-52-12-134-203.us-west-2.compute.amazonaws.com 1 1 3523 20250817182555
+43.153.7.191 1 1 3523 20250812083358
+182.42.104.32 1 1 3523 20250819185101
+43.135.182.95 2 2 7046 20250807150640
+43.153.74.75 1 1 3523 20250831011111
+175.27.164.113 2 2 7046 20250818023521
+ist33.internetbilisim.net 1 1 3523 20250817100258
+scanner-207.ch1.censys-scanner.com 1 3 38544 20250806175413
+5.254.26.60 2 2 7046 20250816113609
+43.167.232.38 2 2 7046 20250815134220
+121.229.185.160 2 2 7046 20250814174546
+43.153.62.161 1 1 3523 20250817215755
+ec2-3-239-70-254.compute-1.amazonaws.com 2 2 7046 20250816074025
+43.134.186.61 2 2 7046 20250816214350
+ec2-54-213-15-150.us-west-2.compute.amazonaws.com 0 1 7444 
+182.42.105.144 2 2 7046 20250808065843
+103.75.184.31 1 1 3523 20250815004102
+110.166.71.39 2 2 7046 20250812155839
+49.51.141.76 1 1 3523 20250824214633
+182.44.67.97 2 2 7046 20250830053216
+185.177.72.144 2 2 7046 20250803102715
+43.159.132.207 2 2 7046 20250823233001
+185.177.72.204 1 2 10967 20250813184020
+43.159.152.4 1 1 3523 20250822042917
+119.45.20.16 4 4 14092 20250827130908
+86.38.98.29 2 2 19992 20250816082014
+43.130.3.122 1 1 3523 20250828102754
+194.26.192.150.powered.by.rdp.sh 1 1 3523 20250818153033
+hg2251.dnsgate.ro 1 1 3523 20250828122924
+43.130.71.237 1 1 3523 20250822124451
+ec2-54-190-50-110.us-west-2.compute.amazonaws.com 1 1 3523 20250824214258
+43.153.58.28 1 1 3523 20250808021545
+43.156.109.53 1 1 3523 20250820193203
+185.177.72.11 3 4 18013 20250823032326
+s73.srv-console.com 1 1 3523 20250829060441
+182.43.70.143 5 5 17615 20250831090514
+170.106.193.108 1 1 3523 20250812025024
+43.130.47.33 1 1 3523 20250821014409
+ec2-44-197-219-78.compute-1.amazonaws.com 1 1 3523 20250812144638
+140.143.98.18 1 1 3523 20250828014008
+43.155.129.131 2 2 7046 20250822010647
+118.195.153.213 5 5 17615 20250822000130
+129.226.213.145 2 2 7046 20250829035413
+45.55.46.201 2 4 11220 20250811213449
+43.143.248.236 2 2 7046 20250827100643
+43.131.26.226 2 2 7046 20250818194041
+150.109.230.210 1 1 3523 20250807171604
+36.41.75.167 2 2 7046 20250821050906
+43.157.147.3 2 2 7046 20250818154351
+124.156.179.141 3 3 10569 20250830075757
+3.45.1.34.bc.googleusercontent.com 1 2 10967 20250817053241
+43.153.123.4 1 1 3523 20250808115648
+113.219.218.197 4 4 14092 20250830113117
+170.106.35.153 2 2 7046 20250828202029
+107-172-243-11-host.colocrossing.com 1 1 3523 20250813101610
+122.51.104.231 1 1 3523 20250819092807
+43.130.72.40 2 2 7046 20250827095623
+ec2-54-188-251-242.us-west-2.compute.amazonaws.com 1 1 3523 20250825180015
+ip96f9d6fd.ap.nuro.jp 3 12 34291 20250819172208
+43.157.158.178 1 1 3523 20250806142207
+ec2-184-72-167-179.compute-1.amazonaws.com 1 2 12083 20250803042551
+69.167.12.46 1 1 3523 20250812182731
+43.165.67.57 1 1 3523 20250819014948
+129.211.215.233 1 1 3523 20250821173403
+artemis.hongkongserver.net 1 1 3523 20250826100334
+60.188.57.0 5 5 17615 20250826092117
+222.79.103.59 2 2 7046 20250823130515
+27.115.124.53 0 1 32934 
+27.115.124.109 0 1 2087 
+gvo-1028.gladhost.cloud 1 1 3523 20250801120231
+43.153.119.119 1 1 3523 20250803034016
+ec2-34-209-156-57.us-west-2.compute.amazonaws.com 1 1 3523 20250819181208
+ec2-35-165-215-140.us-west-2.compute.amazonaws.com 1 1 3523 20250822193218
+159.89.178.183 1 1 3523 20250806005703
+170.106.84.136 1 1 3523 20250804121626
+43.167.239.66 2 2 7046 20250816173152
+ec2-54-202-24-197.us-west-2.compute.amazonaws.com 1 1 3523 20250827182553
+ec2-52-55-174-76.compute-1.amazonaws.com 1 4 14281 20250810162219
+162.14.210.15 1 1 3523 20250813164858
+203.33.203.148 3 3 10569 20250828043807
+27.115.124.45 1 4 14281 20250816150809
+43.166.242.189 1 1 3523 20250810160713
+hostedby.privatelayer.com 1 1 3523 20250819144313
+ec2-44-222-225-5.compute-1.amazonaws.com 2 5 24277 20250810162220
+49.51.233.46 1 1 3523 20250816080149
+43.159.145.153 1 1 3523 20250810193603
+167.94.145.103 1 3 38544 20250830232144
+43.159.138.217 1 1 3523 20250805133145
+222.79.104.23 2 2 7046 20250821111237
+p518118-ipxg00a01oomichi.oita.ocn.ne.jp 1 5 16368 20250821142817
+43.130.31.17 1 1 3523 20250831230720
+192.36.109.73 1 1 3523 20250807182633
+93.123.109.225 1 1 3523 20250825032324
+170.106.180.153 1 1 3523 20250823210917
+196.251.88.64 1 1 3523 20250813131107
+static.217.158.9.176.clients.your-server.de 2 5 18008 20250822055537
+ec2-35-95-41-173.us-west-2.compute.amazonaws.com 1 1 3523 20250815181130
+120.71.59.24 3 3 10569 20250831181517
+43.166.224.244 2 2 7046 20250826165209
+162.62.213.165 1 1 3523 20250812220115
+106.227.49.113 3 3 10569 20250813073600
+ip96f9d6fc.ap.nuro.jp 1 6 17923 20250819145718
+154.213.203.161 1 1 3523 20250803180831
+43.153.67.21 1 1 3523 20250830015033
+43.128.67.187 1 1 3523 20250823001434
+110.40.186.63 2 2 7046 20250817104845
+14.215.163.132 1 1 3523 20250812221744
+203.2.64.59 2 2 7046 20250807091610
+43.153.192.98 1 1 3523 20250827021242
+43.130.228.73 1 1 3523 20250809125646
+242.240.187.123.broad.ly.ln.dynamic.163data.com.cn 2 2 7046 20250814082757
+43.166.128.187 1 1 3523 20250830151824
+93.158.90.74 1 1 3523 20250820064641
+8.36.86.54 2 2 13519 20250807000738
+119.28.89.249 1 1 3523 20250827205541
+vps2406078.fastwebserver.de 1 1 3523 20250807143714
+scanner-201.ch1.censys-scanner.com 1 3 38544 20250801172021
+43.157.142.101 2 2 7046 20250813140646
+43.133.66.51 1 1 3523 20250815220249
+113.141.91.58 2 2 7046 20250825205636
+43.135.133.241 2 2 7046 20250826194034
+94.191.43.82 2 2 7046 20250831030700
+93.158.90.71 1 1 3523 20250814004047
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20250801 16 18 91389 16
+20250802 19 21 101958 19
+20250803 24 30 171714 24
+20250804 16 16 56368 16
+20250805 14 14 49322 14
+20250806 17 19 97862 16
+20250807 25 25 107494 21
+20250808 16 16 56368 16
+20250809 20 24 83305 17
+20250810 20 32 132911 18
+20250811 27 29 95772 17
+20250812 15 15 52845 15
+20250813 19 20 74381 19
+20250814 17 17 59891 16
+20250815 17 17 59891 17
+20250816 25 43 264038 22
+20250817 16 18 72372 16
+20250818 20 33 110018 20
+20250819 30 46 153547 21
+20250820 15 15 52845 15
+20250821 16 20 69213 14
+20250822 18 22 81820 17
+20250823 19 20 74381 17
+20250824 16 19 98833 15
+20250825 20 22 81107 18
+20250826 16 16 56368 16
+20250827 13 15 80820 13
+20250828 12 12 42276 12
+20250829 20 22 111954 20
+20250830 17 25 199975 17
+20250831 23 40 215609 21
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+30s-2mn 1
+0s-30s 530
+2mn-5mn 2
+5mn-15mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 1
+/ 578 2155185 535 535
+END_SIDER

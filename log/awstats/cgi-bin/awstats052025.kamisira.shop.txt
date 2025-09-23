@@ -1,0 +1,517 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 202505 will be lost/reset.
+# Last config file used to build this data file was /virtual/kamisira/public_html/log/awstats/cgi-bin/awstats.kamisira.shop.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2103                
+POS_TIME 2775                
+POS_VISITOR 8730                
+POS_DAY 15667               
+POS_DOMAIN 3530                
+POS_LOGIN 3901                
+POS_ROBOT 4056                
+POS_WORMS 4570                
+POS_EMAILSENDER 4701                
+POS_EMAILRECEIVER 4844                
+POS_SESSION 16256               
+POS_SIDER 16424               
+POS_FILETYPES 4979                
+POS_DOWNLOADS 5121                
+POS_OS 5194                
+POS_BROWSER 5378                
+POS_SCREENSIZE 6588                
+POS_UNKNOWNREFERER 6662                
+POS_UNKNOWNREFERERBROWSER 7107                
+POS_ORIGIN 7360                
+POS_SEREFERRALS 7494                
+POS_PAGEREFS 7657                
+POS_SEARCHWORDS 7829                
+POS_KEYWORDS 7997                
+POS_MISC 2438                
+POS_ERRORS 8072                
+POS_CLUSTER 3757                
+POS_SIDER_400 8421                
+POS_SIDER_404 8322                
+POS_SIDER_403 8196                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250601023123 1 0 4280275958019
+FirstTime 20250506193754
+LastTime 20250531190934
+LastUpdate 20250602045314 1 0 0 0 0
+TotalVisits 168                 
+TotalUnique 138                 
+MonthHostsKnown 62                  
+MonthHostsUnknown 76                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 83 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 9 9 4617 123 133 34765
+1 7 7 3591 134 142 35714
+2 9 9 4617 113 121 30242
+3 12 12 6156 148 163 38888
+4 5 5 2565 219 232 57666
+5 4 4 2052 133 137 33130
+6 1 1 513 120 123 32034
+7 0 0 0 127 127 33525
+8 5 5 2565 111 115 29285
+9 6 6 12967 145 155 39711
+10 10 12 60151 127 136 43779
+11 16 16 36810 141 143 45617
+12 6 6 32193 127 137 47254
+13 24 30 210588 127 156 36375
+14 14 14 6669 131 158 36829
+15 5 5 2565 138 155 39354
+16 4 4 2052 137 148 37860
+17 15 15 7695 133 153 36979
+18 4 4 2052 264 389 79109
+19 7 7 3591 137 146 36529
+20 5 5 2565 219 227 53531
+21 8 8 3959 114 121 30898
+22 3 3 1539 118 125 33121
+23 8 8 4104 166 173 42430
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 11
+ip 92 94 110567
+com 67 69 266371
+jp 8 12 28794
+network 6 6 3078
+net 4 4 2052
+de 3 3 1539
+cloud 2 2 1026
+localhost 2 2 1026
+adsl 1 1 697
+us 1 1 513
+org 1 1 513
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+curl 14 17439 20250531082205 0
+no_user_agent 5 3485 20250531090135 0
+Googlebot/ 5 4649 20250515192058 0
+custo 4 2788 20250524091402 0
+python 2 513 20250531065018 0
+YandexBot/ 2 20436 20250509121425 0
+scanner 1 697 20250521073316 0
+SemrushBot/ 1 513 20250520160049 0
+feed 1 513 20250521151755 0
+MJ12bot/ 1 513 20250524121149 0
+java 1 0 20250526174744 0
+crawl 1 513 20250526174744 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+csv 4 6220 0 0
+js 1 7234 0 0
+png 2 4174 0 0
+css 1 1768 0 0
+php 187 396780 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/dictionary.csv 6 0 9330
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+winnt 1 1
+win10 51 45
+ios_iphone 18 18
+Unknown 22 21
+win7 7 7
+macosx 20 20
+linuxandroid 21 20
+linux 54 54
+winphone 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 61
+chrome131.0.0.0 8 8
+firefox125.0 1 1
+chrome99.0.4844.74 1 1
+chrome132.0.0.0 3 3
+chrome107.0.0.0 2 2
+chrome130.0.0.0 3 3
+firefox120.0 19 19
+chrome75.0.3770.100 1 1
+safari10.0 6 6
+safari13.0.3 1 1
+chrome136.0.7103.59 1 1
+chrome66.0.3359.139 1 1
+chrome122.0.0.0 1 1
+chrome120.0.0.0 3 3
+edge12 1 1
+chrome74.0.3729.169 1 1
+safari18.1.1 3 3
+chrome63.0.3239.111 3 2
+Unknown 20 19
+firefox133.0 1 1
+chrome136.0.0.0 11 7
+chrome 4 4
+chrome116.0.0.0 3 3
+msie10.0 2 2
+safari 5 5
+chrome91.0.4472.120 1 1
+chrome20.0.1132.57 1 1
+chrome115.0.0.0 1 1
+chrome76.0.3809.100 1 1
+chrome88.0.4324.152 1 1
+chrome70.0.3538.80 1 1
+chrome72.0.3626.122 1 1
+chrome127.0.0.0 1 1
+chrome123.0.0.0 1 1
+firefox68.6.0 1 1
+firefox136.0 2 2
+firefox41.0 4 4
+safari16.5 2 2
+chrome135.0.0.0 14 14
+chrome79.0.3945.136 1 1
+chrome78.0.3904.108 3 3
+edge18 4 3
+chrome125.0.0.0 4 4
+chrome117.0.0.0 4 4
+chrome113.0.0.0 1 1
+mozilla 3 3
+chrome104 6 6
+chrome105.0.0.0 1 1
+chrome83.0.4103.97 7 7
+chrome134.0.0.0 8 8
+firefox83.0 1 1
+firefox34.0 1 1
+safari12.1.2 1 1
+firefox70.0 1 1
+android 2 2
+chrome108 4 4
+chrome101.0.0.0 1 1
+chrome76.0.3809.132 1 1
+safari17.4 1 1
+chrome110.0.0.0 1 1
+chrome117.0.5938.132 2 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20250509105007
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20250513161929
+Scrapy/2.12.0_(_https://scrapy.org) 20250507193557
+fasthttp 20250510105409
+okhttp/4.9.2 20250527142914
+Go-http-client/1.1 20250514231915
+Go-http-client/2.0 20250506203751
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+okhttp/4.9.2 20250527142914
+Go-http-client/2.0 20250506203751
+Go-http-client/1.1 20250514231915
+Scrapy/2.12.0_(_https://scrapy.org) 20250507193557
+fasthttp 20250510105409
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 176 177
+From1 0 0
+From2 6 6
+From3 3 3
+From4 2 9
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 6 6
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://cp.xrea.com 3 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+kamisira.shop 3
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+kamisira.shop 3
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+500 3 0
+403 2 199
+301 3214 823631
+404 349 68404
+END_ERRORS
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 2
+/ 1 -
+/admin/ 1 https://kamisira.shop/admin
+END_SIDER_403
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1
+/favicon.png 2 -
+END_SIDER_404
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 0
+END_SIDER_400
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 138
+dangerous-slave.aeza.network 6 6 3078 20250531133956
+104.28.224.94 5 5 12270 20250520001502
+ec2-35-165-215-140.us-west-2.compute.amazonaws.com 4 4 2052 20250506203751
+171.244.43.14 4 4 2052 20250510041832
+ec2-54-164-157-105.compute-1.amazonaws.com 4 4 2052 20250517142804
+95.177.180.85 4 4 2052 20250530005539
+ec2-54-174-140-70.compute-1.amazonaws.com 4 4 2052 20250512143026
+ip73a37c0a.ap.nuro.jp 4 8 26742 20250509140226
+222.132.56.34.bc.googleusercontent.com 3 3 113601 20250509131858
+vps-08a778c2.vps.ovh.net 3 3 1539 20250531135529
+154.28.229.118 2 2 20436 20250509103030
+45.149.31.143 1 1 513 20250508032804
+149.57.180.35 1 1 513 20250516115248
+103.225.130.1 1 1 513 20250508033343
+23.27.145.242 1 1 513 20250511113804
+194.190.131.5 1 1 513 20250510011352
+ec2-52-39-81-201.us-west-2.compute.amazonaws.com 1 1 513 20250515173746
+ec2-34-221-225-87.us-west-2.compute.amazonaws.com 1 1 513 20250520173626
+crawl-66-249-79-231.googlebot.com 1 1 10218 20250509122125
+ec2-52-20-19-158.compute-1.amazonaws.com 2 2 1026 20250507163010
+23.27.145.123 1 1 513 20250516000528
+161.35.222.136 1 1 513 20250520043131
+134.122.108.84 1 1 513 20250514040304
+3.91.39a9.ip4.static.sl-reverse.com 1 1 10218 20250509133046
+ec2-54-187-148-105.us-west-2.compute.amazonaws.com 1 1 513 20250511173855
+141.11.94.85 1 1 513 20250515133914
+ec2-3-220-101-67.compute-1.amazonaws.com 2 2 1026 20250527142914
+196.251.88.164 1 1 513 20250523092803
+ec2-3-133-83-159.us-east-2.compute.amazonaws.com 1 1 513 20250511134041
+ec2-57-182-104-37.ap-northeast-1.compute.amazonaws.com 1 1 697 20250510213254
+143.198.1.146 1 1 513 20250530055226
+5.133.192.160 1 1 513 20250531030726
+185.241.208.215 1 1 513 20250511084747
+ec2-35-88-98-185.us-west-2.compute.amazonaws.com 1 1 513 20250515174410
+45.148.10.248 1 1 513 20250529110554
+154.29.35.2 1 1 513 20250507013003
+104.164.173.101 1 1 513 20250511115921
+104.164.173.166 1 1 10218 20250509103017
+198.13.62.122.vultrusercontent.com 1 1 10218 20250509125846
+154.28.229.75 1 1 513 20250511141452
+ec2-54-91-47-18.compute-1.amazonaws.com 1 1 513 20250518083404
+ec2-34-229-104-102.compute-1.amazonaws.com 1 1 513 20250509155207
+ns1016175.ip-15-204-182.us 1 1 513 20250510105858
+8.219.209.75 1 2 5454 20250510105409
+ec2-44-243-64-23.us-west-2.compute.amazonaws.com 2 2 20436 20250509112416
+c3.68.a880.ip4.static.sl-reverse.com 1 1 10218 20250509133047
+68.183.197.222 1 1 513 20250518034551
+ec2-3-89-229-5.compute-1.amazonaws.com 1 1 513 20250507150132
+149.57.180.80 1 1 513 20250513113600
+27.17.34.34.bc.googleusercontent.com 1 1 513 20250507193557
+159.89.120.43 1 1 513 20250530004012
+195.211.77.140 2 2 0 20250513212707
+149.57.180.5 1 1 513 20250523052636
+154.30.97.106 1 1 513 20250509171321
+ec2-54-186-79-158.us-west-2.compute.amazonaws.com 1 1 513 20250514025732
+105.171.204.35.bc.googleusercontent.com 1 1 513 20250516201045
+46.101.196.158 1 1 513 20250526044951
+connected-by.global-layer.com 1 1 513 20250511202547
+196.251.85.239 1 1 513 20250531121052
+185.242.177.19 1 1 513 20250510094914
+185.255.164.0 1 1 513 20250510022202
+ec2-54-174-109-174.compute-1.amazonaws.com 1 1 513 20250507143235
+hn.kd.ny.adsl 1 1 697 20250516092252
+142.93.157.195 1 1 513 20250522035113
+134.209.18.67 1 1 513 20250512032947
+115.40.199.104.bc.googleusercontent.com 2 2 1026 20250510010542
+146.190.241.144 1 1 513 20250516033455
+ec2-44-247-215-6.us-west-2.compute.amazonaws.com 1 1 513 20250520174708
+176.103.243.6 1 1 513 20250507142815
+223.31.171.34.bc.googleusercontent.com 1 1 513 20250520184925
+b7893723-1047-4b55-8c33-a26858e4192a.fr-par-1.baremetal.scw.cloud 1 1 513 20250510173458
+static.186.48.99.88.clients.your-server.de 1 1 513 20250509171153
+157.230.215.12 1 1 513 20250510054358
+149.57.180.144 1 1 513 20250519115312
+vmi2542390.contaboserver.net 1 1 513 20250511082617
+successful.monitoring.internet-measurement.com 1 1 10218 20250509105007
+149.57.180.192 1 1 513 20250519000519
+ec2-54-89-19-119.compute-1.amazonaws.com 1 1 513 20250530184637
+ec2-18-237-188-215.us-west-2.compute.amazonaws.com 1 1 513 20250518174856
+164.92.119.244 1 1 513 20250508020320
+23.27.145.176 1 1 513 20250510233454
+khh.kingonward.com 1 1 513 20250511122731
+23.27.145.127 1 1 513 20250510114952
+104.252.186.232 1 1 513 20250519130820
+ik1-124-68615.vs.sakura.ne.jp 1 1 513 20250510014118
+149.57.180.183 1 1 513 20250516023045
+43.165.135.242 1 1 513 20250512145134
+213.232.87.234 2 2 1026 20250514231915
+195.211.77.142 2 2 1026 20250513212717
+149.57.180.11 1 1 513 20250523002735
+139.59.19.120 1 1 513 20250528043649
+ec2-54-244-130-218.us-west-2.compute.amazonaws.com 1 1 513 20250527174427
+149.57.180.147 1 1 513 20250512234835
+64.e2.3ba9.ip4.static.sl-reverse.com 1 1 10218 20250509133048
+ec2-52-90-35-71.compute-1.amazonaws.com 2 2 1026 20250529103626
+ec2-98-80-177-33.compute-1.amazonaws.com 2 2 1026 20250529160922
+23.27.145.79 1 1 513 20250511001654
+95.177.163.4 1 1 513 20250528170151
+149.57.180.118 1 1 10218 20250509121222
+ec2-54-245-42-144.us-west-2.compute.amazonaws.com 1 1 513 20250521005224
+159.223.113.186 1 1 513 20250509191442
+ec2-54-166-193-186.compute-1.amazonaws.com 1 1 513 20250507141707
+ec2-3-80-173-132.compute-1.amazonaws.com 1 1 513 20250509155146
+27.115.124.41 1 1 697 20250525214604
+23.27.145.142 1 1 513 20250513012457
+static.26.115.13.49.clients.your-server.de 1 1 513 20250513215737
+ec2-44-243-186-111.us-west-2.compute.amazonaws.com 1 1 10218 20250509112416
+159.89.45.171 1 1 513 20250515223430
+55.245.22.34.bc.googleusercontent.com 1 1 513 20250510022208
+192.104.34.34 1 1 513 20250516020118
+119.12.207.218 1 1 513 20250519130818
+206.168.34.219 1 1 513 20250513161929
+kd106128038011.au-net.ne.jp 3 3 1539 20250509135851
+188.208.108.169 1 1 513 20250509171113
+149.57.180.49 1 1 513 20250509231613
+196.251.85.111 1 1 513 20250528171235
+104.28.192.94 2 2 1026 20250526060054
+undefined.hostname.localhost 2 2 1026 20250514025606
+69.172.232.137 1 1 513 20250525144633
+104.164.173.95 2 2 1026 20250511115933
+ec2-54-244-101-141.us-west-2.compute.amazonaws.com 1 1 697 20250509135739
+143.137.164.96 1 1 0 20250507142813
+149.57.180.148 1 1 513 20250509232709
+167.99.220.112 1 1 513 20250524054140
+tor-exit-187.relayon.org 1 1 513 20250507173351
+149.57.180.16 1 1 513 20250519031954
+ec2-44-203-84-116.compute-1.amazonaws.com 2 2 1026 20250516212234
+ec2-18-208-154-219.compute-1.amazonaws.com 2 2 1026 20250531083459
+ec2-54-245-147-62.us-west-2.compute.amazonaws.com 2 4 23546 20250509132430
+643e1389-3c0c-440d-a119-9d72e5e3f7fe.fr-par-2.baremetal.scw.cloud 1 1 513 20250514172358
+78.4c.179f.ip4.static.sl-reverse.com 1 1 10218 20250509133045
+ec2-54-197-208-29.compute-1.amazonaws.com 1 1 513 20250531190934
+static.18.251.90.157.clients.your-server.de 1 1 513 20250514031334
+23.27.145.11 1 1 513 20250523120846
+205.169.39.57 1 2 11773 20250509101053
+146.190.214.209 1 1 513 20250508032753
+185.18.222.147 1 1 513 20250514025732
+23.191.80.125 1 1 513 20250510182634
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 26
+20250506 6 6 3078 3
+20250507 12 12 5643 12
+20250508 5 5 2565 5
+20250509 42 49 337837 32
+20250510 19 20 14872 18
+20250511 17 17 8208 15
+20250512 4 4 2052 4
+20250513 6 6 2565 6
+20250514 7 7 3591 7
+20250515 4 4 2052 4
+20250516 9 9 4801 8
+20250517 1 1 513 1
+20250518 3 3 1539 3
+20250519 5 5 2565 5
+20250520 5 5 2565 5
+20250521 1 1 513 1
+20250522 1 1 513 1
+20250523 4 4 2052 4
+20250524 2 2 1026 2
+20250525 3 3 1723 3
+20250526 4 4 2052 4
+20250527 4 4 2052 4
+20250528 5 5 2565 5
+20250529 5 5 2565 4
+20250530 6 6 3078 6
+20250531 7 7 3591 6
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+0s-30s 165
+30s-2mn 1
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 1
+/ 187 396780 168 168
+END_SIDER

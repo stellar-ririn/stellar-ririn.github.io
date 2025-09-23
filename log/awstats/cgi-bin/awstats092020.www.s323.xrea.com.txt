@@ -1,0 +1,317 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 202009 will be lost/reset.
+# Last config file used to build this data file was /virtual/www/public_html/log/awstats/cgi-bin/awstats.www.s323.xrea.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2102                
+POS_TIME 2773                
+POS_VISITOR 7042                
+POS_DAY 8103                
+POS_DOMAIN 3607                
+POS_LOGIN 3896                
+POS_ROBOT 4051                
+POS_WORMS 4501                
+POS_EMAILSENDER 4632                
+POS_EMAILRECEIVER 4775                
+POS_SESSION 8517                
+POS_SIDER 8701                
+POS_FILETYPES 4910                
+POS_DOWNLOADS 5027                
+POS_OS 5093                
+POS_BROWSER 5231                
+POS_SCREENSIZE 5576                
+POS_UNKNOWNREFERER 5650                
+POS_UNKNOWNREFERERBROWSER 5737                
+POS_ORIGIN 5819                
+POS_SEREFERRALS 5957                
+POS_PAGEREFS 6101                
+POS_SEARCHWORDS 6249                
+POS_KEYWORDS 6401                
+POS_MISC 2437                
+POS_ERRORS 6460                
+POS_CLUSTER 3752                
+POS_SIDER_403 6569                
+POS_SIDER_400 6651                
+POS_SIDER_404 6733                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20201001000109 1 0 6993148272106
+FirstTime 20200901191808
+LastTime 20200930182427
+LastUpdate 20201002035747 1 0 0 0 0
+TotalVisits 28                  
+TotalUnique 19                  
+MonthHostsKnown 14                  
+MonthHostsUnknown 5                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 1 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 2546 2546 449894
+1 2 2 1026 2594 2596 464989
+2 2 2 1026 2586 2589 457343
+3 0 0 0 2648 2649 460149
+4 3 3 2091 2648 2651 486348
+5 2 2 1394 2601 2606 471148
+6 1 1 697 2587 2590 477079
+7 12 14 31791 2594 2600 500287
+8 0 0 0 2504 2511 455493
+9 0 0 0 2505 2511 465382
+10 17 21 101239 2549 2557 514031
+11 46 50 186200 2396 2400 548176
+12 8 9 16033 2468 2469 539256
+13 46 48 3947586 2387 2391 430903
+14 14 14 15598 2344 2348 474516
+15 18 18 29396 2408 2410 505107
+16 10 10 11392 2479 2481 514293
+17 14 14 15602 2646 2646 523127
+18 12 12 12416 2624 2628 489602
+19 13 13 56471 2556 2558 486500
+20 14 14 7188 2468 2468 500899
+21 5 5 3422 2407 2409 470950
+22 2 2 1026 2310 2312 475374
+23 0 0 0 2275 2276 455666
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+jp 197 208 4307718
+net 16 18 98193
+ru 15 15 10455
+ip 11 11 24202
+com 2 2 1026
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+Wget/ 59977 11505969 20200930235958 0
+no_user_agent 86 15508 20200930184816 0
+YandexBot/ 10 5130 20200929021621 0
+bingbot/ 5 27492 20200927224129 0
+favicon 2 2236 20200928072631 0
+ia_archiver 1 18704 20200920194205 0
+DotBot/ 1 18704 20200929075656 0
+Googlebot/ 1 513 20200915134003 0
+Applebot/ 1 5499 20200910163331 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+php 226 4365369 0 0
+png 13 9632 0 0
+cgi 15 66593 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/ubar.txt 3 0 134
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+winxp 5 5
+macosx6 1 1
+ios_iphone 14 12
+win10 219 208
+win8.1 8 8
+win7 7 7
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 14
+opera54.0.2952.54 2 2
+safari13.1.2 14 12
+chrome67.0.3396.99 2 2
+firefox25.0 1 1
+firefox81.0 2 1
+msie7.0 5 5
+chrome50.0.2661.102 5 5
+firefox80.0 210 200
+chrome67.0.3396.79 1 1
+chrome74.0.3729.169 2 2
+chrome66.0.3359.181 2 2
+chrome65.0.3325.146 1 1
+chrome67.0.3396.62 2 2
+chrome75.0.3770.100 5 5
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 127 127
+From1 0 0
+From2 0 0
+From3 0 0
+From4 114 127
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+503 5 1495
+302 12 0
+404 92 14112
+END_ERRORS
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 0
+END_SIDER_403
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 0
+END_SIDER_400
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 0
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 19
+fl1-220-144-44-111.hrs.mesh.ad.jp 103 110 245777 20200928124509
+p1246239-ipngn200805niho.hiroshima.ocn.ne.jp 68 70 3982261 20200908183800
+softbank126072105253.bbtec.net 16 18 98193 20200902111537
+pw126035128010.25.panda-world.ne.jp 12 14 31791 20200919075830
+210-203-230-138.ppp.bbiq.jp 9 9 0 20200908213827
+211-125-97-165.dynamic.cidr1.kct.ad.jp 5 5 47889 20200901191849
+host-93-124-60-35.dsl.sura.ru 4 4 2788 20200922194815
+host-95-152-44-166.dsl.sura.ru 3 3 2091 20200926175229
+host-93-124-105-236.dsl.sura.ru 3 3 2091 20200908152601
+host-95-152-40-21.dsl.sura.ru 2 2 1394 20200923175135
+180.97.237.11 2 2 1026 20200902211510
+118.25.17.135 2 2 1394 20200923192900
+103.205.5.241 2 2 1026 20200919014636
+- 1 1 18704 20200909113411
+site1.fvds.ru 1 1 697 20200912124125
+ecs-122-112-177-129.compute.prod-cloud-ocb.orange-business.com 2 2 1026 20200930182427
+222.186.171.224 2 2 1026 20200911023001
+host-93-124-56-81.dsl.sura.ru 2 2 1394 20200927061348
+103.205.5.178 2 2 1026 20200925220624
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 17
+20200901 5 5 47889 1
+20200902 18 20 99219 2
+20200907 10 10 1394 2
+20200908 70 72 3982958 3
+20200909 103 109 256339 2
+20200911 2 2 1026 1
+20200912 1 1 697 1
+20200919 15 17 33514 3
+20200920 2 2 1394 1
+20200921 1 1 697 1
+20200922 1 1 697 1
+20200923 3 3 2091 3
+20200925 2 2 1026 1
+20200926 3 3 2091 2
+20200927 2 2 1394 2
+20200928 1 2 8142 1
+20200930 2 2 1026 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+1h+ 2
+5mn-15mn 1
+30s-2mn 1
+0s-30s 19
+30mn-1h 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 8
+/mail/src/left_main.php 99 117474 0 3
+/mail/src/right_main.php 61 244627 0 1
+/ 27 16979 19 19
+/jp/admin.cgi 15 66593 4 4
+/mail/src/read_body.php 15 33468 0 0
+/mail/src/download.php 10 3945007 0 0
+/mail/src/webmail.php 9 2714 5 1
+/mail/src/image.php 5 5100 0 0
+END_SIDER

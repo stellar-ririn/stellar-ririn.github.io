@@ -1,0 +1,7 @@
+AuthUserFile /virtual/kamisira/public_html/log/.htpasswd
+AuthGroupFile /dev/null
+AuthName LOG
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit> 

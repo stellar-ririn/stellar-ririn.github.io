@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>単語変換ツール</title>
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="stylesheet" href="layout.css">
+
+　　<!-- OGP -->
+    <meta property="og:title" content="単語変換ツール">
+    <meta property="og:description" content="文の一部を修正するよ">
+    
+    <meta property="og:url" content="https://www.kamisira.shop/">
+</head>
+
+<body>
+    <div class="firstMess">
+        <p class="firstMess">広告が表示されますが、ご了承ください。ボクは短縮URLをゆるさないよっ。</p>
+        <!-- HTTPSページの場合非表示 -->
+        <a class="firstMess" href="https://www.kamisira.shop/">このページはHTTPです。HTTPSでアクセスする場合はクリック</a> <!-- HTTPページの場合 -->
+    </div>
+    <!-- サイト名 (ナビゲーションバー) -->
+    <nav>
+        <div class="nav-wrapper blue">
+            <a href="#" class="brand-logo center">
+                <span class="hide-on-med-and-up">単語変換ツール</span> <!-- スマホ (small) 表示 -->
+                <span class="hide-on-small-only">単語変換ツール</span> <!-- タブレット (medium) 以上で表示 -->
+            </a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <br>
+        <!-- 入力欄と出力欄 -->
+        <div class="row">
+            <div class="col s12 m6"> <!-- スマホではs12, タブレット以上でm6 -->
+                <div class="input-field">
+                    <textarea id="input-area"></textarea> <!-- materialize-textarea クラスも削除 -->
+                    <label for="input-area">変換元</label>
+                </div>
+            </div>
+            <div class="col s12 m6"> <!-- スマホではs12, タブレット以上でm6 -->
+                <!-- 出力欄は readonly にして、JSで内容を書き換える想定 -->
+                <span id="output-area-label-span" style="font-size: 0.8rem; color: #9e9e9e; display: block;">変換先</span>
+                <!-- labelの代替、Materializeのactiveラベル風スタイル。警告回避のためspanに変更 -->
+                <div id="output-area" class="output-display" aria-labelledby="output-area-label-span"></div>
+                <!-- textarea から div に変更し、新しいクラスを付与。aria-labelledbyで関連付け -->
+            </div>
+        </div>
+
+        <!-- 変換ボタン -->
+        <div class="row center-align convert-options"> <!-- 新しいクラスを追加 -->
+            <button id="convert-btn" class="btn waves-effect waves-light green">
+                <i class="material-icons left">sync</i>変換実行
+            </button>
+            <!-- 辞書使用チェックボックス -->
+            <label>
+                <input type="checkbox" id="use-dictionary-checkbox" />
+                <span>辞書ファイルを使用(試験的)</span>
+            </label>
+
+        </div>
+        <br>
+
+
+        <!-- 入力ペアセクション -->
+        <h5>修正したところ</h5>
+        <div id="pair-container">
+            <!-- ここに入力ペアが動的に追加されます -->
+            <div class="row pair-item"> <!-- インラインのmargin-bottom削除 -->
+                <div class="col s12 m5"> <!-- スマホではs12, タブレット以上でm5 -->
+                    <div class="input-field">
+                        <input id="pair-input-1-0" type="text" class="validate">
+                        <label for="pair-input-1-0">1つ目の修正元</label> <!-- ラベル変更 -->
+                    </div>
+                </div>
+                <div class="col s12 m2 pair-arrow"> <!-- スマホではs12, タブレット以上でm2 -->
+                    <i class="material-icons hide-on-med-and-up">arrow_downward</i> <!-- スマホでは下向き矢印 -->
+                    <span class="hide-on-small-only">></span> <!-- スマホ以外では > -->
+                </div>
+                <div class="col s12 m5"> <!-- スマホではs12, タブレット以上でm5 -->
+                    <div class="input-field">
+                        <input id="pair-input-2-0" type="text" class="validate">
+                        <label for="pair-input-2-0">1つ目の修正後</label> <!-- ラベル変更 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ペア追加ボタン -->
+        <button id="add-pair-btn" class="btn waves-effect waves-light blue">
+            <i class="material-icons left">add</i>修正欄を追加
+        </button>
+
+        <br><br>
+
+        <!-- CSV操作セクション -->
+        <h5>修正の組み合わせのCSV出力/入力</h5>
+        <div class="row">
+            <div class="col s12 m6 l4"> <!-- ボタンの幅を調整 -->
+                <button id="export-csv-btn" class="btn waves-effect waves-light teal"
+                    style="width: 100%; margin-bottom: 10px;">
+                    <i class="material-icons left">file_download</i>修正の組み合わせをCSVで保存
+                </button>
+            </div>
+            <div class="col s12 m6 l8"> <!-- ファイル入力の幅を調整 -->
+                <div class="file-field input-field" style="margin-top:0;"> <!-- 上マージン調整 -->
+                    <div class="btn orange">
+                        <span><i class="material-icons left">file_upload</i>CSV読込</span>
+                        <input type="file" id="import-csv-file" accept=".csv">
+                    </div>
+                    <div class="file-path-wrapper">
+                        <input class="file-path validate" type="text" placeholder="組み合わせ情報CSVファイルを選択"
+                            id="csv-file-path-display">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <!-- 動的辞書グループセクション -->
+        <h5>動的辞書グループ (変換時に修正しません)１文字は非適応</h5>
+        <!-- Flexboxコンテナとして動作させるためのクラスを追加 -->
+        <div id="dynamic-dict-container" class="row" style="margin-bottom: 0;">
+            <!--
+        JavaScriptで .col s6 m4 l3 クラスを持つ要素がここに追加される。
+        .row が Flexbox のコンテナとして機能し、中の .col が自動で折り返す。
+      -->
+            <!-- ここに動的辞書入力欄が行単位で追加されます -->
+        </div>
+
+        <!-- 動的辞書入力欄追加ボタン -->
+        <button id="add-dynamic-dict-btn" class="btn waves-effect waves-light purple lighten-1">
+            <i class="material-icons left">playlist_add</i>単語欄を追加
+        </button>
+
+
+    </div>
+
+    <!-- Materialize JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+    <br><br>
+    <details>
+        <summary>使い方</summary>
+        本サイトは、変換元に入力した文章を「修正元->修正後」の組み合わせで単語を変えることができます。<br>
+        また、組み合わせ自体をcsvファイルとして保存し、読み込むこともできます。<br>
+        「化石」と「石」を別にしたい、という場合も下の動的辞書部へ書き換えられたくない単語（この場合は化石）を入れると、<br>
+        単語内に一部のみ含まれるものでは変えられず、その単語を含めた物でないと変えられなくなります。<br>
+        <br>
+        なお、辞書ファイルに関しては暴走（変えてほしいところが変わらない）するため試験運用となっております。<br>
+        ごめんねっ<br>
+        <br>
+        なお、このサイトはXREA(Free)のサービスを利用し構築しております。<br>
+        そのため、上部に広告バナーと、予告なしにアクセスできなくなる可能性があることをご了承ください。<br>
+        （一年後…2026年5月以降は未定です。もしかすると別サービスで再度構築するかも）<br>
+    </details>
+    <details>
+        <summary>更新履歴と更新予定</summary>
+        2025/05/08らへん<br>
+        :  試験的に公開（Ver0.0.1）<br>
+        2025/05/08 22時<br>
+        :  修正元/後をCSVファイルへ保存/読み込み機能を追加（Ver0.0.2）<br>
+        2025/05/09 0:30頃<br>
+        :  使い方、免責の文を記載（Ver据え置き）<br>
+        2025/05/09 13:54<br>
+        :  SSLを適応、HTTPS化完了。同時にHTTPの場合はHTTPS接続のリンクを表示させるように。<br>
+        <br>
+        ----- 更新予定（気が向いたら） -----<br>
+        ・チェックボックスを使ったキーワード化、キーワードは文字背景色変更<br>
+        ・結果をtxtにして出力<br>
+        （題名、結果、キーワード、原文、改変後を分かりやすく出力）<br>
+    </details>
+    <br><br>
+    <p class="center-align">© 2025 神白 悠菜（ユウ・リリン）</p>
+    <p class="center-align">本サイトを利用した事により不利益があっても、当方は責任を持つ事が出来ません。ご了承ください。</p>
+</body>
+
+</html>	

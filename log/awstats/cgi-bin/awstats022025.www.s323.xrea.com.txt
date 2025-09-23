@@ -1,0 +1,341 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 202502 will be lost/reset.
+# Last config file used to build this data file was /virtual/www/public_html/log/awstats/cgi-bin/awstats.www.s323.xrea.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2102                
+POS_TIME 2774                
+POS_VISITOR 7164                
+POS_DAY 8934                
+POS_DOMAIN 3627                
+POS_LOGIN 3915                
+POS_ROBOT 4070                
+POS_WORMS 4483                
+POS_EMAILSENDER 4614                
+POS_EMAILRECEIVER 4757                
+POS_SESSION 9495                
+POS_SIDER 9701                
+POS_FILETYPES 4892                
+POS_DOWNLOADS 5026                
+POS_OS 5074                
+POS_BROWSER 5196                
+POS_SCREENSIZE 5516                
+POS_UNKNOWNREFERER 5590                
+POS_UNKNOWNREFERERBROWSER 5677                
+POS_ORIGIN 5759                
+POS_SEREFERRALS 5897                
+POS_PAGEREFS 6060                
+POS_SEARCHWORDS 6232                
+POS_KEYWORDS 6384                
+POS_MISC 2438                
+POS_ERRORS 6443                
+POS_CLUSTER 3771                
+POS_SIDER_403 6553                
+POS_SIDER_404 6773                
+POS_SIDER_400 6855                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250301000007 1813 262655 6872676212457
+FirstTime 0
+LastTime 20250228184925
+LastUpdate 20250301040525 1813 0 1812 0 0
+TotalVisits 63                  
+TotalUnique 31                  
+MonthHostsKnown 26                  
+MonthHostsUnknown 5                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 697 1679 1679 155646
+1 0 0 0 1895 1895 383897
+2 1 1 697 2018 2018 201405
+3 0 0 0 1949 1949 199802
+4 2 2 1394 1922 1922 195821
+5 0 0 0 1906 1906 197835
+6 2 2 1394 1895 1895 186019
+7 9 10 14363 1911 1912 194800
+8 2 2 1026 2021 2023 206209
+9 114 114 354983 2011 2017 209643
+10 33 34 101108 1949 1951 213751
+11 93 94 252053 1942 1945 203274
+12 5 6 11755 1947 1949 200674
+13 34 36 167786 1936 1938 199739
+14 13 14 16641 1935 1936 206595
+15 42 42 96688 1938 1940 204543
+16 27 27 62847 1986 1989 222635
+17 16 17 46425 1898 1901 193937
+18 17 19 33203 2003 2004 200524
+19 14 14 17786 2003 2005 216822
+20 7 8 16983 1942 1950 197384
+21 84 85 126776 2008 2013 203169
+22 38 38 62393 1940 1943 204818
+23 51 51 135887 1996 1996 204209
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+jp 547 557 1380782
+net 26 27 108644
+ru 22 22 15334
+ip 6 6 7974
+com 4 5 10151
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+Wget/ 45541 4594268 20250228235851 0
+no_user_agent 835 332616 20250228224925 0
+bingbot/ 8 30030 20250228150947 0
+smtbot 4 2052 20250210175116 0
+Googlebot/ 4 12128 20250210101251 0
+Applebot/ 1 513 20250220190556 0
+netcraft 1 697 20250204032830 0
+SemrushBot/ 1 5548 20250213192517 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+shtm 1 159 0 0
+cgi 20 129511 0 0
+png 12 46110 0 0
+php 584 1347105 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 4
+win8.1 21 21
+win10 491 483
+win7 1 1
+linuxandroid 104 100
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 13
+chrome132.0.0.0 150 149
+firefox104.0 1 1
+firefox135.0 17 15
+chrome75.0.3770.100 20 20
+chrome94.0.4606.81 4 4
+chrome133.0.0.0 416 407
+firefox77.0 1 1
+firefox106.0 1 1
+chrome131.0.0.0 3 3
+chrome103.0.5042.0 1 1
+firefox66.0 1 1
+chrome103.0.0.0 1 1
+chrome103.0.5060.66 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 108 108
+From1 0 0
+From2 1 1
+From3 1 1
+From4 495 507
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://www.3796.net 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+403 5 995
+404 124 24304
+302 128 0
+END_ERRORS
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 3
+/wp-login.php 3 https://www.s323.xrea.com/wp-admin/
+/.well-known/acme-challenge/index.php 1 -
+/.well-known/acme-challenge/plugins.php 1 -
+END_SIDER_403
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 0
+END_SIDER_404
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 0
+END_SIDER_400
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 31
+p471057-ipxg00a01daianjibetu.nara.ocn.ne.jp 206 206 642088 20250228115704
+flh2-133-200-204-0.tky.mesh.ad.jp 172 174 285700 20250221225523
+p683031-ipxg00c01daianjibetu.nara.ocn.ne.jp 45 45 123932 20250213175310
+kd059132022224.au-net.ne.jp 33 33 58039 20250219114731
+softbank221105198201.bbtec.net 26 27 108644 20250228135913
+c017.cidr3-1.kct.ad.jp 15 17 70550 20250215141504
+kd059132022027.au-net.ne.jp 12 12 27994 20250219160919
+kd059132011064.au-net.ne.jp 12 13 29936 20250220102302
+124-110-146-106.osaka.ap.gmo-isp.jp 11 11 57232 20250221231207
+dynamicip-94-181-187-69.pppoe.penza.ertelecom.ru 10 10 6970 20250221131901
+kd106146126111.au-net.ne.jp 3 4 3800 20250214110546
+kd059132010235.au-net.ne.jp 2 2 2076 20250220121151
+kd059132030242.au-net.ne.jp 1 1 1160 20250222074446
+217.114.0.119 1 1 697 20250216000112
+156.146.45.114 1 1 4 20250202195239
+181.177.123.147 2 2 1026 20250210082842
+23-95-23-248-host.colocrossing.com 2 2 1026 20250210175109
+fp96f925e5.tkyc601.ap.nuro.jp 3 3 12010 20250223205559
+kd059132022071.au-net.ne.jp 3 3 3142 20250219141715
+kd059132002158.au-net.ne.jp 6 6 6670 20250219185939
+109x194x244x39.dynamic.irkutsk.ertelecom.ru 6 6 4182 20250226060738
+as184185.dynamic.ppp.asahi-net.or.jp 1 1 5551 20250221093154
+unn-156-146-45-194.cdn77.com 1 1 697 20250202195153
+184.94.240.88 1 1 697 20250204193633
+109.150.159.133.rev.vmobile.jp 2 3 9446 20250221124750
+kd059132022162.au-net.ne.jp 8 9 13203 20250219070554
+185.147.124.225 1 1 5550 20250225172327
+109x194x243x110.dynamic.irkutsk.ertelecom.ru 6 6 4182 20250208120002
+cache.google.com 1 2 8428 20250213175232
+kd059132023208.au-net.ne.jp 2 2 2417 20250219175056
+kd059138008044.ppp-bb.dion.ne.jp 10 12 25836 20250228184925
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 23
+20250202 2 2 701 2
+20250203 13 13 39080 1
+20250204 3 3 2091 3
+20250205 2 2 1394 2
+20250207 26 26 66621 1
+20250208 3 3 2091 3
+20250209 2 2 1394 2
+20250210 4 4 2052 2
+20250213 9 10 28053 4
+20250214 78 79 204035 3
+20250215 15 17 70550 1
+20250216 2 2 1394 2
+20250217 17 17 57864 1
+20250218 101 102 215952 2
+20250219 167 169 293301 10
+20250220 16 17 33406 5
+20250221 23 24 86246 6
+20250222 1 1 1160 1
+20250223 3 3 12010 1
+20250224 4 4 2788 4
+20250225 19 19 74167 2
+20250226 2 2 1394 2
+20250228 93 96 325141 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+5mn-15mn 3
+15mn-30mn 1
+30mn-1h 3
+0s-30s 39
+1h+ 3
+2mn-5mn 6
+30s-2mn 8
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 11
+/mail/src/right_main.php 243 943379 0 13
+/mail/src/left_main.php 177 208622 4 8
+/mail/src/webmail.php 76 20674 23 2
+/mail/src/read_body.php 51 148286 0 5
+/ 29 19477 27 27
+/jp/admin.cgi 20 129511 4 4
+/mail/src/redirect.php 3 3075 1 1
+/mail/src/signout.php 2 912 0 2
+/mail/src/login.php 2 2676 2 0
+/.well-known/acme-challenge/ 1 4 1 1
+/jp/admin.shtm 1 159 1 0
+END_SIDER
