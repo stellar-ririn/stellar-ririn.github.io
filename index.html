@@ -22,16 +22,16 @@
 
 <body>
     <div class="firstMess">
-        <p class="firstMess">ボクは短縮URLをゆるさないよっ。</p><!-- Githubだから広告つける理由ないよね -->
+        <!-- <p class="firstMess">ボクは短縮URLをゆるさないよっ。</p>Githubだから広告つける理由ないよね -->
         <!-- HTTPSページの場合非表示 -->
         <a class="firstMess" href="https://stellar-ririn.github.io">このページはHTTPです。HTTPSでアクセスする場合はクリック</a> <!-- HTTPページの場合 -->
     </div>
     <!-- サイト名 (ナビゲーションバー) -->
     <nav>
         <div class="nav-wrapper blue">
-            <a href="#" class="brand-logo center">
-                <span class="hide-on-med-and-up">単語変換ツール</span> <!-- スマホ (small) 表示 -->
-                <span class="hide-on-small-only">単語変換ツール</span> <!-- タブレット (medium) 以上で表示 -->
+            <a href="#" class="">
+                <span class="hide-on-med-and-up title-text">単語変換ツール(怪談白物語補助サイト)</span> <!-- スマホ (small) 表示 -->
+                <span class="hide-on-small-only title-text">単語変換ツール(怪談白物語補助サイト)</span> <!-- タブレット (medium) 以上で表示 -->
             </a>
         </div>
     </nav>
@@ -58,12 +58,12 @@
         <!-- 変換ボタン -->
         <div class="row center-align convert-options"> <!-- 新しいクラスを追加 -->
             <button id="convert-btn" class="btn waves-effect waves-light green">
-                <i class="material-icons left">sync</i>変換実行
+                <i class="material-icons left">sync</i><span class="hide-on-med-and-up btnfont">変換</span><span class="hide-on-small-only btnfont">変換実行</span>
             </button>
             <!-- 辞書使用チェックボックス -->
             <label>
                 <input type="checkbox" id="use-dictionary-checkbox" />
-                <span>辞書ファイルを使用(試験的)</span>
+                <span>辞書ファイルを使用<br>(試験的)</span>
             </label>
 
         </div>

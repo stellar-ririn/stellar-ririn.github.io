@@ -1,5 +1,5 @@
 .firstMess {
-  text-align: center;
+  /* text-align: center; */
   /* テキストは中央揃え */
 }
 
@@ -142,20 +142,16 @@ details[open] summary {
   /* text-align は summary で設定済み */
 }
 
-/* サイト名のフォントサイズを画面幅に応じて調整 */
-.brand-logo {
-  /* デフォルトのフォントサイズ (中間の画面サイズ向け) */
-  font-size: 2.1rem !important;
-  /* Materializeのデフォルトに合わせる。!importantで上書き */
+
+
+.title-text {
+  margin-left: 1em;
+  font-size: clamp(15px, 2.1vw, 30px);
 }
 
-@media only screen and (max-width: 600px) {
-
-  /* スマホなどの小さい画面 */
-  .brand-logo {
-    font-size: 1.6rem !important;
-    /* 小さめのフォントサイズ */
-  }
+.btn i.left {
+  margin-right: 0px; /* デフォルトはたしか 15px */
 }
-
-/* タブレットサイズはデフォルトの2.1remを使用 */
+.btnfont {
+  margin-right: 0px; /* デフォルトはたしか 15px */
+}
