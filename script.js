@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
 
     // 対象のリンク要素を取得します
-    const httpMessageLink = document.querySelector('a.firstMess[href="https://stellar-ririn.github.io"]');
+    const httpMessageLink = document.querySelector('a.firstMess[href="https://stellar-ririn.github.io/"]');
     if (httpMessageLink) {
         // 現在のプロトコルがHTTPSの場合
         if (window.location.protocol === "https:") {

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /_testDic/
+Allow: /
+Sitemap: https://stellar-ririn.github.io/sitemap.xml
