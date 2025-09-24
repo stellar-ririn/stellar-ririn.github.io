@@ -150,3 +150,9 @@ details[open] summary {
 .btnfont {
   margin-right: 0px; /* デフォルトはたしか 15px */
 }
+
+/* キーワード用のハイライトスタイル */
+.highlight-keyword {
+  background-color: #ffc107; /* Materializeのamber色 */
+  font-weight: bold;
+}
