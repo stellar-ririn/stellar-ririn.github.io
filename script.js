@@ -233,10 +233,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     });
 
                 } else {
-                    currentDictionary = {};
                     const dynamicInputs = dynamicDictContainer.querySelectorAll('.dynamic-dict-item input');
-                    const dynamicPlaceholders = {};
-                    let dynamicPlaceholderCounter = 0;
                     const dynamicGroupWords = [];
                     dynamicInputs.forEach(input => {
                         const word = input.value.trim();
@@ -245,46 +242,47 @@ document.addEventListener('DOMContentLoaded', function () {
                         }
                     });
 
-                    const uniqueDynamicWords = [...new Set(dynamicGroupWords)];
-                    const sortedDynamicWords = uniqueDynamicWords.sort((a, b) => b.length - a.length);
+                    const pairWords = pairs.map(p => p.input1.trim()).filter(w => w);
+                    const allWords = [...new Set([...dynamicGroupWords, ...pairWords])];
+                    const sortedWords = allWords.sort((a, b) => b.length - a.length);
 
-                    sortedDynamicWords.forEach(word => {
+                    const placeholders = {};
+                    let placeholderCounter = 0;
+
+                    sortedWords.forEach(word => {
                         if (word) {
-                            const placeholder = `__DYNAMIC_WORD_${dynamicPlaceholderCounter++}__`;
-                            dynamicPlaceholders[placeholder] = word;
+                            const placeholder = `__TEMP_PLACEHOLDER_${placeholderCounter++}__`;
+                            placeholders[placeholder] = word;
                             const regex = new RegExp(escapeRegExp(word), 'g');
                             outputText = outputText.replace(regex, placeholder);
                         }
                     });
 
-                    pairs.forEach((pair, index) => {
-                        const input1 = pair.input1.trim();
-                        const replacement = pair.input2;
-                        const highlightClass = pair.isKeyword ? 'highlight-keyword' : 'highlight';
-                        const replacementSpan = `<span class="${highlightClass}">${replacement}</span>`;
+                    const replacedPlaceholders = new Set();
 
+                    pairs.forEach(pair => {
+                        const input1 = pair.input1.trim();
                         if (input1) {
-                            let replacedPlaceholder = false;
-                            Object.keys(dynamicPlaceholders).forEach(placeholder => {
-                                if (dynamicPlaceholders[placeholder] === input1) {
-                                    const placeholderRegex = new RegExp(escapeRegExp(placeholder), 'g');
+                            const replacement = pair.input2;
+                            const highlightClass = pair.isKeyword ? 'highlight-keyword' : 'highlight';
+                            const replacementSpan = `<span class="${highlightClass}">${replacement}</span>`;
+
+                            Object.keys(placeholders).forEach(p => {
+                                if (placeholders[p] === input1) {
+                                    const placeholderRegex = new RegExp(escapeRegExp(p), 'g');
                                     outputText = outputText.replace(placeholderRegex, replacementSpan);
-                                    delete dynamicPlaceholders[placeholder];
-                                    replacedPlaceholder = true;
+                                    replacedPlaceholders.add(p);
                                 }
                             });
-
-                            if (!replacedPlaceholder) {
-                                const regex = new RegExp(escapeRegExp(input1), 'g');
-                                outputText = outputText.replace(regex, replacementSpan);
-                            }
                         }
                     });
 
-                    Object.keys(dynamicPlaceholders).forEach(placeholder => {
-                        const originalWord = dynamicPlaceholders[placeholder];
-                        const placeholderRegex = new RegExp(escapeRegExp(placeholder), 'g');
-                        outputText = outputText.replace(placeholderRegex, originalWord);
+                    Object.keys(placeholders).forEach(p => {
+                        if (!replacedPlaceholders.has(p)) {
+                            const originalWord = placeholders[p];
+                            const placeholderRegex = new RegExp(escapeRegExp(p), 'g');
+                            outputText = outputText.replace(placeholderRegex, originalWord);
+                        }
                     });
                 }
 
