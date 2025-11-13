@@ -160,130 +160,159 @@ document.addEventListener('DOMContentLoaded', function () {
 
             convertBtn.addEventListener('click', function () {
                 const useDictionary = useDictionaryCheckbox.checked;
+                const recursiveReplace = document.getElementById('recursive-replace-checkbox').checked;
                 const pairs = getAllPairs();
                 let inputText = inputArea.value;
                 let outputText = inputText;
-                const placeholders = {};
-                let placeholderCounter = 0;
-                let currentDictionary = {};
 
                 function escapeRegExp(string) {
                     return string.replace(/[.*+?^${}()|[\\\]]/g, '\\$&');
                 }
 
-                if (useDictionary) {
-                    currentDictionary = JSON.parse(JSON.stringify(baseDictionary));
+                if (recursiveReplace) {
+                    // 繰り返し変換が有効な場合：spanタグを維持しつつ置換を繰り返す
+                    pairs.forEach(pair => {
+                        const input1 = pair.input1.trim();
+                        if (!input1) return; // 置換元が空なら何もしない
 
-                    const dynamicInputs = dynamicDictContainer.querySelectorAll('.dynamic-dict-item input');
-                    const dynamicGroupWords = [];
-                    dynamicInputs.forEach(input => {
-                        const word = input.value.trim();
-                        if (word) {
-                            dynamicGroupWords.push(word);
-                        }
-                    });
-
-                    if (dynamicGroupWords.length > 0) {
-                        const uniqueDynamicWords = [...new Set(dynamicGroupWords)];
-                        const existingKeys = Object.keys(currentDictionary);
-                        existingKeys.forEach(key => {
-                            const currentWords = Array.isArray(currentDictionary[key]) ? currentDictionary[key] : [];
-                            const updatedWords = [...new Set([...currentWords, ...uniqueDynamicWords])];
-                            currentDictionary[key] = updatedWords;
-                        });
-
-                        const firstExistingKey = existingKeys[0];
-                        const finalWordList = firstExistingKey ? currentDictionary[firstExistingKey] : uniqueDynamicWords;
-
-                        uniqueDynamicWords.forEach(newWord => {
-                            currentDictionary[newWord] = [...finalWordList];
-                        });
-                    }
-
-                    pairs.forEach((pair, index) => {
-                        const minimalInput = pair.input1.trim();
                         const replacement = pair.input2;
                         const highlightClass = pair.isKeyword ? 'highlight-keyword' : 'highlight';
                         const replacementSpan = `<span class="${highlightClass}">${replacement}</span>`;
+                        const regex = new RegExp(escapeRegExp(input1), 'g');
 
-                        if (minimalInput && currentDictionary[minimalInput]) {
-                            const groupWords = currentDictionary[minimalInput];
-                            const longerWords = groupWords.filter(word => word !== minimalInput);
-
-                            longerWords.forEach(longWord => {
-                                const placeholder = `__PLACEHOLDER_${placeholderCounter++}__`;
-                                placeholders[placeholder] = longWord;
-                                const regex = new RegExp(escapeRegExp(longWord), 'g');
-                                outputText = outputText.replace(regex, placeholder);
-                            });
-
-                            const minimalRegex = new RegExp(escapeRegExp(minimalInput), 'g');
-                            outputText = outputText.replace(minimalRegex, replacementSpan);
-
-                        } else if (minimalInput) {
-                            const regex = new RegExp(escapeRegExp(minimalInput), 'g');
-                            outputText = outputText.replace(regex, replacementSpan);
-                        }
+                        // outputTextをspanタグで分割し、テキスト部分とspanタグ部分の両方を置換する
+                        const parts = outputText.split(/(<span.*?<\/span>)/g);
+                        const newParts = parts.map((part, index) => {
+                            if (index % 2 === 0) {
+                                // 配列の偶数番目の要素（テキスト部分）は、新しいspanタグで置換
+                                return part.replace(regex, replacementSpan);
+                            } else {
+                                // 奇数番目の要素（spanタグ部分）は、spanがネストしないように中身だけ置換
+                                return part.replace(regex, replacement);
+                            }
+                        });
+                        outputText = newParts.join('');
                     });
-
-                    Object.keys(placeholders).forEach(placeholder => {
-                        const originalWord = placeholders[placeholder];
-                        const placeholderRegex = new RegExp(escapeRegExp(placeholder), 'g');
-                        outputText = outputText.replace(placeholderRegex, originalWord);
-                    });
-
                 } else {
-                    const dynamicInputs = dynamicDictContainer.querySelectorAll('.dynamic-dict-item input');
-                    const dynamicGroupWords = [];
-                    dynamicInputs.forEach(input => {
-                        const word = input.value.trim();
-                        if (word) {
-                            dynamicGroupWords.push(word);
-                        }
-                    });
-
-                    const pairWords = pairs.map(p => p.input1.trim()).filter(w => w);
-                    const allWords = [...new Set([...dynamicGroupWords, ...pairWords])];
-                    const sortedWords = allWords.sort((a, b) => b.length - a.length);
-
+                    // 既存のロジック
                     const placeholders = {};
                     let placeholderCounter = 0;
+                    let currentDictionary = {};
 
-                    sortedWords.forEach(word => {
-                        if (word) {
-                            const placeholder = `__TEMP_PLACEHOLDER_${placeholderCounter++}__`;
-                            placeholders[placeholder] = word;
-                            const regex = new RegExp(escapeRegExp(word), 'g');
-                            outputText = outputText.replace(regex, placeholder);
+                    if (useDictionary) {
+                        currentDictionary = JSON.parse(JSON.stringify(baseDictionary));
+
+                        const dynamicInputs = dynamicDictContainer.querySelectorAll('.dynamic-dict-item input');
+                        const dynamicGroupWords = [];
+                        dynamicInputs.forEach(input => {
+                            const word = input.value.trim();
+                            if (word) {
+                                dynamicGroupWords.push(word);
+                            }
+                        });
+
+                        if (dynamicGroupWords.length > 0) {
+                            const uniqueDynamicWords = [...new Set(dynamicGroupWords)];
+                            const existingKeys = Object.keys(currentDictionary);
+                            existingKeys.forEach(key => {
+                                const currentWords = Array.isArray(currentDictionary[key]) ? currentDictionary[key] : [];
+                                const updatedWords = [...new Set([...currentWords, ...uniqueDynamicWords])];
+                                currentDictionary[key] = updatedWords;
+                            });
+
+                            const firstExistingKey = existingKeys[0];
+                            const finalWordList = firstExistingKey ? currentDictionary[firstExistingKey] : uniqueDynamicWords;
+
+                            uniqueDynamicWords.forEach(newWord => {
+                                currentDictionary[newWord] = [...finalWordList];
+                            });
                         }
-                    });
 
-                    const replacedPlaceholders = new Set();
-
-                    pairs.forEach(pair => {
-                        const input1 = pair.input1.trim();
-                        if (input1) {
+                        pairs.forEach((pair, index) => {
+                            const minimalInput = pair.input1.trim();
                             const replacement = pair.input2;
                             const highlightClass = pair.isKeyword ? 'highlight-keyword' : 'highlight';
                             const replacementSpan = `<span class="${highlightClass}">${replacement}</span>`;
 
-                            Object.keys(placeholders).forEach(p => {
-                                if (placeholders[p] === input1) {
-                                    const placeholderRegex = new RegExp(escapeRegExp(p), 'g');
-                                    outputText = outputText.replace(placeholderRegex, replacementSpan);
-                                    replacedPlaceholders.add(p);
-                                }
-                            });
-                        }
-                    });
+                            if (minimalInput && currentDictionary[minimalInput]) {
+                                const groupWords = currentDictionary[minimalInput];
+                                const longerWords = groupWords.filter(word => word !== minimalInput);
 
-                    Object.keys(placeholders).forEach(p => {
-                        if (!replacedPlaceholders.has(p)) {
-                            const originalWord = placeholders[p];
-                            const placeholderRegex = new RegExp(escapeRegExp(p), 'g');
+                                longerWords.forEach(longWord => {
+                                    const placeholder = `__PLACEHOLDER_${placeholderCounter++}__`;
+                                    placeholders[placeholder] = longWord;
+                                    const regex = new RegExp(escapeRegExp(longWord), 'g');
+                                    outputText = outputText.replace(regex, placeholder);
+                                });
+
+                                const minimalRegex = new RegExp(escapeRegExp(minimalInput), 'g');
+                                outputText = outputText.replace(minimalRegex, replacementSpan);
+
+                            } else if (minimalInput) {
+                                const regex = new RegExp(escapeRegExp(minimalInput), 'g');
+                                outputText = outputText.replace(regex, replacementSpan);
+                            }
+                        });
+
+                        Object.keys(placeholders).forEach(placeholder => {
+                            const originalWord = placeholders[placeholder];
+                            const placeholderRegex = new RegExp(escapeRegExp(placeholder), 'g');
                             outputText = outputText.replace(placeholderRegex, originalWord);
-                        }
-                    });
+                        });
+
+                    } else {
+                        const dynamicInputs = dynamicDictContainer.querySelectorAll('.dynamic-dict-item input');
+                        const dynamicGroupWords = [];
+                        dynamicInputs.forEach(input => {
+                            const word = input.value.trim();
+                            if (word) {
+                                dynamicGroupWords.push(word);
+                            }
+                        });
+
+                        const pairWords = pairs.map(p => p.input1.trim()).filter(w => w);
+                        const allWords = [...new Set([...dynamicGroupWords, ...pairWords])];
+                        const sortedWords = allWords.sort((a, b) => b.length - a.length);
+
+                        const placeholders = {};
+                        let placeholderCounter = 0;
+
+                        sortedWords.forEach(word => {
+                            if (word) {
+                                const placeholder = `__TEMP_PLACEHOLDER_${placeholderCounter++}__`;
+                                placeholders[placeholder] = word;
+                                const regex = new RegExp(escapeRegExp(word), 'g');
+                                outputText = outputText.replace(regex, placeholder);
+                            }
+                        });
+
+                        const replacedPlaceholders = new Set();
+
+                        pairs.forEach(pair => {
+                            const input1 = pair.input1.trim();
+                            if (input1) {
+                                const replacement = pair.input2;
+                                const highlightClass = pair.isKeyword ? 'highlight-keyword' : 'highlight';
+                                const replacementSpan = `<span class="${highlightClass}">${replacement}</span>`;
+
+                                Object.keys(placeholders).forEach(p => {
+                                    if (placeholders[p] === input1) {
+                                        const placeholderRegex = new RegExp(escapeRegExp(p), 'g');
+                                        outputText = outputText.replace(placeholderRegex, replacementSpan);
+                                        replacedPlaceholders.add(p);
+                                    }
+                                });
+                            }
+                        });
+
+                        Object.keys(placeholders).forEach(p => {
+                            if (!replacedPlaceholders.has(p)) {
+                                const originalWord = placeholders[p];
+                                const placeholderRegex = new RegExp(escapeRegExp(p), 'g');
+                                outputText = outputText.replace(placeholderRegex, originalWord);
+                            }
+                        });
+                    }
                 }
 
                 outputArea.innerHTML = outputText;
