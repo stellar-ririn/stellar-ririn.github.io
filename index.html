@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>単語変換ツール(怪談白物語補助サイト)</title>
-    <meta name=”description” content=”怪談白物語で変更した部分を分かりやすく、かつ変更元と変更先を出力して保存、また今度やる、という事が可能な補助サイトです。さらに、[白]と[純白]を分けれるような設定にも出来ます。” />
+    <meta name=”description” content="怪談白物語で変更した部分を分かりやすく、かつ変更元と変更先を出力して保存、また今度やる、という事が可能な補助サイトです。さらに、[白]と[純白]を分けれるような設定にも出来ます。" />
     <!-- Materialize CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Material Icons -->
@@ -120,7 +120,7 @@
                 <div class="file-field input-field" style="margin-top:0;"> <!-- 上マージン調整 -->
                     <div class="btn orange">
                         <span><i class="material-icons left">file_upload</i>CSV読込</span>
-                        <input type="file" id="import-csv-file" accept=".csv">
+                        <input type="file" id="import-csv-file" accept=".csv" placeholder="読み込むCSVを選択してくださいな">
                     </div>
                     <div class="file-path-wrapper">
                         <input class="file-path validate" type="text" placeholder="組み合わせ情報CSVファイルを選択"
@@ -230,6 +230,10 @@
         :  いろいろレイアウトを変更<br>
         2025/09/24 16:20(Ver0.0.3)<br>
         :  TXT形式での出力に対応<br>
+        2025/09/24 21:44(Ver0.0.4)<br>
+        :  バグ修正<br>
+        2025/11/13 16:30(Ver0.0.5)<br>
+        :  バグ修正(普通にコードミスあった)とメールアドレス追加<br>
         <br>
         ----- 更新予定（気が向いたら） -----<br>
         ・チェックボックスを使ったキーワード化、キーワードは文字背景色変更<br>
@@ -239,6 +243,7 @@
     <br><br>
     <br><br>
     <p class="center-align">© 2025 神白 悠菜（ユウ・リリン）</p>
+    <p class="center-align">E-mail: yuna.jinrou@gmail.com </p>
     <p class="center-align">本サイトを利用した事により不利益があっても、当方は責任を持つ事が出来ません。ご了承ください。</p>
 </body>
 
