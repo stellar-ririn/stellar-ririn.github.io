@@ -54,7 +54,7 @@ a {
   .pair-item .pair-arrow {
     height: auto;
     /* 高さを自動に */
-    margin: 0.5rem 0;
+    margin: 0.2rem 0;
     /* 上下に少しマージン */
   }
 }
@@ -98,12 +98,32 @@ a {
 .convert-options {
   display: flex;
   /* 横並びにする */
+  flex-wrap: wrap; /* 折り返しを許可 */
   align-items: center;
   /* 垂直方向中央揃え */
   justify-content: center;
   /* 水平方向中央揃え */
-  gap: 20px;
+  gap: 15px;
   /* 要素間のスペース */
+}
+
+/* スマホ表示での変換オプションの調整 */
+@media only screen and (max-width: 600px) {
+  .convert-options {
+    flex-direction: column; /* 垂直に並べる */
+    align-items: stretch; /* 横幅いっぱいに広げる */
+    gap: 10px;
+  }
+  
+  .convert-options button {
+    width: 100%; /* ボタンを横幅いっぱいに */
+  }
+
+  .convert-options label {
+    display: block;
+    text-align: left;
+    padding-left: 10px;
+  }
 }
 
 details {
@@ -141,7 +161,15 @@ details[open] summary {
 
 .title-text {
   margin-left: 1em;
-  font-size: clamp(15px, 2.1vw, 30px);
+  font-size: clamp(14px, 4vw, 30px); /* スマホで少し大きめに、レスポンシブに */
+}
+
+/* コンテナの幅をスマホで広げる */
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 95% !important;
+    max-width: none !important;
+  }
 }
 
 .btn i.left {
