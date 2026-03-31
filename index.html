@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>単語変換ツール(怪談白物語補助サイト)</title>
+    <title>怪談白 単語変換ツール (怪談白物語補助サイト)</title>
     <meta name=”description” content="怪談白物語で変更した部分を分かりやすく、かつ変更元と変更先を出力して保存、また今度やる、という事が可能な補助サイトです。さらに、[白]と[純白]を分けれるような設定にも出来ます。" />
     <!-- Materialize CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="layout.css">
 
     <!-- OGP -->
-    <meta property="og:title" content="単語変換ツール(怪談白物語補助サイト)">
+    <meta property="og:title" content="怪談白 単語変換ツール(怪談白物語補助サイト)">
     <meta property="og:description" content="文の一部を修正するよ">
     <meta property="og:image" content="https://stellar-ririn.github.io/img/ogp.png">
     <meta property="og:url" content="https://stellar-ririn.github.io/">
@@ -40,14 +40,15 @@
     <nav>
         <div class="nav-wrapper blue">
             <a href="#" class="">
-                <span class="hide-on-med-and-up title-text">単語変換ツール(怪談白物語補助サイト)</span> <!-- スマホ (small) 表示 -->
-                <span class="hide-on-small-only title-text">単語変換ツール(怪談白物語補助サイト)</span> <!-- タブレット (medium) 以上で表示 -->
+                <span class="hide-on-med-and-up title-text">怪談白 単語変換ツール (怪談白物語補助サイト)</span> <!-- スマホ (small) 表示 -->
+                <span class="hide-on-small-only title-text">怪談白 単語変換ツール (怪談白物語補助サイト)</span> <!-- タブレット (medium) 以上で表示 -->
             </a>
         </div>
     </nav>
 
     <div class="container">
         <br>
+        <span>偉大なる怪談白物語はこちら ->  <a href="https://omaegagmna.booth.pm/items/816008" target="_blank" rel="noopener noreferrer">https://omaegagmna.booth.pm/items/816008</a></span>
         <!-- 入力欄と出力欄 -->
         <div class="row">
             <div class="col s12 m6"> <!-- スマホではs12, タブレット以上でm6 -->
@@ -70,11 +71,6 @@
             <button id="convert-btn" class="btn waves-effect waves-light green" onclick="gtag('event', 'convert_execution', { 'button_name': 'main_visual' });">
                 <i class="material-icons left">sync</i><span class="hide-on-med-and-up btnfont">変換</span><span class="hide-on-small-only btnfont">変換実行</span>
             </button>
-            <!-- 辞書使用チェックボックス -->
-            <label>
-                <input type="checkbox" id="use-dictionary-checkbox" />
-                <span>辞書ファイルを使用<br>(試験的)</span>
-            </label>
             <label>
                 <input type="checkbox" id="recursive-replace-checkbox" />
                 <span>改変部分を更に改変</span>
@@ -208,7 +204,7 @@
         <br>
         <br>
         ----- 偉大なる怪談白物語 -----<br>
-        https://omaegagmna.booth.pm/items/816008<br>
+        <a href="https://omaegagmna.booth.pm/items/816008" target="_blank" rel="noopener noreferrer">https://omaegagmna.booth.pm/items/816008</a><br>
         <br>
         流石にダメだったらすぐ消します<br>
         <br>
@@ -220,8 +216,7 @@
         「化石」と「石」を別にしたい、という場合も下の動的辞書部へ書き換えられたくない単語（この場合は化石）を入れると、<br>
         単語内に一部のみ含まれるものでは変えられず、その単語を含めた物でないと変えられなくなります。<br>
         <br>
-        なお、辞書ファイルに関しては暴走（変えてほしいところが変わらない）するため試験運用となっております。<br>
-        ごめんねっ<br>
+        なお、辞書ファイル（単語を入力しなくても自動で認識してくれる）に関しては不安定だったのと結局満足に動かせなかったので消しました。<br>
         <br>
         なお、このサイトはGithub Pagesで公開しています。<br>
         なので多分消さないと思われ。<br>
@@ -256,6 +251,10 @@
         2026/01/06 13:30(Ver1.0.1)<br>
         :  スマホでのレイアウトを調整(ボタンを押しやすく)
         :  Google Analyticsを追加<br>
+        2026/03/31 14:41
+        :  辞書ファイルのシステムを削除
+        :  なんとなくタイトル変更
+        :  上のほうに怪談白物語のリンクを追加
         ----- 更新予定（気が向いたら） -----<br>
         ・改変部分の強調の色を変更する機能を追加したいよね<br>
         ・出力結果にPDFも追加したいよね(キーワードの強調表示維持したまま)<br>
